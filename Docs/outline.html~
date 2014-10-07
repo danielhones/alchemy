@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>outline</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="outline"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2014-10-03T20:11-0400"/>
+<meta name="author" content="Daniel Hones"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">outline</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Introduction</a>
+<ul>
+<li><a href="#sec-1-1">1.1 What is ear training?</a></li>
+<li><a href="#sec-1-2">1.2 Why is it important?</a></li>
+<li><a href="#sec-1-3">1.3 Perfect pitch</a></li>
+<li><a href="#sec-1-4">1.4 Reading music</a></li>
+<li><a href="#sec-1-5">1.5 How this method is different</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2 Basics</a>
+<ul>
+<li><a href="#sec-2-1">2.1 Overview</a></li>
+<li><a href="#sec-2-2">2.2 What is a pitch?</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1 Whole steps and half steps</a></li>
+<li><a href="#sec-2-2-2">2.2.2 The piano keyboard</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-3">2.3 What is a key?</a>
+<ul>
+<li><a href="#sec-2-3-1">2.3.1 The major scale</a></li>
+<li><a href="#sec-2-3-2">2.3.2 Notes have names</a></li>
+<li><a href="#sec-2-3-3">2.3.3 The piano keyboard</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-3">3 How the method works</a>
+<ul>
+<li><a href="#sec-3-1">3.1 The cadence</a></li>
+<li><a href="#sec-3-2">3.2 Identifying the notes</a>
+<ul>
+<li><a href="#sec-3-2-1">3.2.1 Baby steps</a></li>
+<li><a href="#sec-3-2-2">3.2.2 Different approaches</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> What is ear training?</h3>
+<div class="outline-text-3" id="text-1-1">
+
+<p>   Ear training is the process of learning to identify mentally the sounds you hear in music.  As you might imagine,
+   this is a broad definition and ear training itself covers many topics within it.  For example, you can practice
+   ear training to learn the sounds of individual chords, or to identify rhythms by ear, or to recognize instruments
+   by their sound.  The particular method of ear training we will use with this program is called "functional ear
+   training."  That's the process of learning to identify a note by its function within a key.  If that doesn't
+   make sense to you right now, don't worry because we will cover everything you need to know in the upcoming sections.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Why is it important?</h3>
+<div class="outline-text-3" id="text-1-2">
+
+<p>   So now that you know what ear training is (if you didn't already), you would certainly be justified in asking,
+   "Okay, so what?  I play pretty well, I have a decent ear, why do I need to ear train?"  The answer is, of course,
+   that you don't <i>need</i> to ear train.  You don't <i>need</i> to eat healthy either, but it's a probably a good idea to
+   try.  I'll talk about a few reasons why, even though you don't need to ear train to be a musician, you might
+   personally want to ear train in order to become a better musician.  
+</p>
+<p>   
+   I think that if most musicians were asked, "wouldn't it be nice to be able to hear some music and know exactly
+   what notes are being played without having to use your instrument as a reference?," they would all answer yes
+   emphatically.
+</p>
+
+</div>
+
+</div>
+
+<div id="outline-container-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Perfect pitch</h3>
+<div class="outline-text-3" id="text-1-3">
+
+<p>   Perfect pitch (or absolute pitch) is the ability to hear a note or notes and know instantly what pitches they
+   are, without having to hear a reference pitch.  So far, all respectable research has concluded that a person has
+   to be born with perfect pitch (or develop it by age 4?)  and it cannot be developed over time with training
+   (((need citation))).  I don't have perfect pitch, and if you're reading this then you don't have perfect pitch
+   either.  That's nothing to be ashamed of.  Only 1 in 10,000 people have the ability
+   (((<a href="http://www.psychologytoday.com/articles/200607/the-mysteries-perfect-pitch">http://www.psychologytoday.com/articles/200607/the-mysteries-perfect-pitch</a>))).  The only thing the rest of us
+   can do is cry and come up with reasons why we're glad we aren't cursed with such an affliction.  And of course,
+   we can ear train.
+</p>
+<p>
+   While having perfect pitch would be very cool, probably the closest most of us can get is having very strong
+   relative (or functional pitch).  We won't be able to tell precisely what notes we hear without a reference pitch
+   to compare them to, but we can develop the ability to tell what notes they are within the context of a key.
+   More on that in a few sections.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Reading music</h3>
+<div class="outline-text-3" id="text-1-4">
+
+<p>   Despite the fact that ear training is often solely in the realm of music college classes, you do not need to be
+   able to read music in order to ear train.  In fact, I've written this program and this document specifically to
+   avoid written music.  The reason for this is simply that I believe in the value of ear training and I don't want
+   to scare anybody off from the idea just because they don't read music.  There are many great musicians who can't
+   read music and there are many great musicians who are great readers.  Personally, I can read music and I think
+   that anyone who's serious about learning music should learn to read.
+</p>
+<p>
+   Contrary to what a lot of "cool blues guys" and "cool rock guys" say, learning to read music will not ruin your
+   ear or your ability to be creative or stay true to your music, or whatever.  My hunch is that people who spout
+   off those reasons for not learning to read are either too scared or too lazy to learn.  I'll leave it to someone
+   else to convince them to learn to read and write music.  Fortunately for them, they can still use this program
+   to ear train.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> How this method is different</h3>
+<div class="outline-text-3" id="text-1-5">
+
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Basics</h2>
+<div class="outline-text-2" id="text-2">
+
+
+</div>
+
+<div id="outline-container-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Overview</h3>
+<div class="outline-text-3" id="text-2-1">
+
+<p>   This section will cover the just the basic knowledge you need in order to start using this method of ear
+   training.  That includes the half steps and whole steps, the major scale, and the names of the notes within the
+   major scale.  If you are confident in your knowledge of basic music theory you can probably skip this section.
+   If there is anything unfamiliar to you in the rest of this document, refer back to this section to review.
+</p></div>
+
+</div>
+
+<div id="outline-container-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> What is a pitch?</h3>
+<div class="outline-text-3" id="text-2-2">
+
+
+
+</div>
+
+<div id="outline-container-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> Whole steps and half steps</h4>
+<div class="outline-text-4" id="text-2-2-1">
+
+<p>    The smallest interval that exists in Western (I don't mean country and western) music is the half step.  The
+    next smallest interval is a whole step.  Two half steps, as you would expect and hope, do in fact make one whole
+    step.  On certain instruments, it's possible to play pitches that are in between the 12 pitches we are used to
+    hearing.  In this case, there are intervals smaller than a half step.  For our purposes, we don't need to be
+    concerned with hearing pitches that are in between the 12 we know because they usually end up just sounding out
+    of tune.  If you decide later on that you want to develop your ear for intonation or microtones (as the in
+    between pitches are called), you can find other methods and tools to practice that.  In this program, everything
+    is in tune.
+</p></div>
+
+</div>
+
+<div id="outline-container-2-2-2" class="outline-4">
+<h4 id="sec-2-2-2"><span class="section-number-4">2.2.2</span> The piano keyboard</h4>
+<div class="outline-text-4" id="text-2-2-2">
+
+<p>    Most people have seen a piano keyboard.  If you haven't it looks like this:  (((Picture of piano keyboard)))
+</p>
+<p>
+    A full-size piano has 88 keys and each plays a different pitch.  While that sounds overwhelming at first, we
+    know that there are actually only 12 different notes in Western music.  And if you look closer at the piano, you
+    can see that huge mess of white and black keys is actually just a pattern that repeats: (((Picture of one octave
+    of keyboard C to B))).  In that pattern, there are 7 white keys and 5 black keys.  The white keys (if you start
+    at the leftmost key) play what's called a major scale.  (((Sound clip of a C major scale))).  
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> What is a key?</h3>
+<div class="outline-text-3" id="text-2-3">
+
+
+</div>
+
+<div id="outline-container-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1"><span class="section-number-4">2.3.1</span> The major scale</h4>
+<div class="outline-text-4" id="text-2-3-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2"><span class="section-number-4">2.3.2</span> Notes have names</h4>
+<div class="outline-text-4" id="text-2-3-2">
+
+</div>
+
+</div>
+
+<div id="outline-container-2-3-3" class="outline-4">
+<h4 id="sec-2-3-3"><span class="section-number-4">2.3.3</span> The piano keyboard</h4>
+<div class="outline-text-4" id="text-2-3-3">
+
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> How the method works</h2>
+<div class="outline-text-2" id="text-3">
+
+
+</div>
+
+<div id="outline-container-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> The cadence</h3>
+<div class="outline-text-3" id="text-3-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Identifying the notes</h3>
+<div class="outline-text-3" id="text-3-2">
+
+
+</div>
+
+<div id="outline-container-3-2-1" class="outline-4">
+<h4 id="sec-3-2-1"><span class="section-number-4">3.2.1</span> Baby steps</h4>
+<div class="outline-text-4" id="text-3-2-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-3-2-2" class="outline-4">
+<h4 id="sec-3-2-2"><span class="section-number-4">3.2.2</span> Different approaches</h4>
+<div class="outline-text-4" id="text-3-2-2">
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="date">Date: 2014-10-03T20:11-0400</p>
+<p class="author">Author: Daniel Hones</p>
+<p class="creator"><a href="http://orgmode.org">Org</a> version 7.9.3f with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>
