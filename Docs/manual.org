@@ -3,22 +3,17 @@
 
 * Introduction
 ** What is ear training?
-   Ear training is the process of learning to identify mentally the sounds you hear in music.  As you might imagine,
+   Ear training is the process of learning to identify the sounds you hear in music.  As you might imagine,
    this is a broad definition and ear training itself covers many topics within it.  For example, you can practice
-   ear training to learn the sounds of individual chords, or to identify rhythms by ear, or to recognize instruments
-   by their sound.  The particular method of ear training we will use with this program is called "functional ear
+   ear training to learn the sounds of individual chords, or to identify rhythms, or to recognize instruments
+   by their timbre.  The particular method of ear training we will use with this program is called "functional ear
    training."  That's the process of learning to identify a note by its function within a key.  If that doesn't
    make sense to you right now, don't worry because we will cover everything you need to know in the upcoming sections.
 ** Why is it important?
    So now that you know what ear training is (if you didn't already), you would certainly be justified in asking,
    "Okay, so what?  I play pretty well, I have a decent ear, why do I need to ear train?"  The answer is, of course,
    that you don't /need/ to ear train.  You don't /need/ to eat healthy either, but it's a probably a good idea to
-   try.  I'll talk about a few reasons why, even though you don't need to ear train to be a musician, you might
-   personally want to ear train in order to become a better musician.  
-   
-   I think that if most musicians were asked, "wouldn't it be nice to be able to hear some music and know exactly
-   what notes are being played without having to use your instrument as a reference?," they would all answer yes
-   emphatically.
+   try.  
 
    
 ** Perfect pitch
@@ -33,7 +28,7 @@
 
    While having perfect pitch would be very cool, probably the closest most of us can get is having very strong
    relative (or functional pitch).  We won't be able to tell precisely what notes we hear without a reference pitch
-   to compare them to, but we can develop the ability to tell what notes they are within the context of a key.
+   to compare them to, but we can develop the ability to tell what notes we hear within the context of a key.
    More on that in a few sections.
 ** Reading music
    Despite the fact that ear training is often solely in the realm of music college classes, you do not need to be

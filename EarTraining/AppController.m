@@ -29,13 +29,15 @@
 
 + (void)initialize {
     // Register NSUserDefaults
-    NSArray *defaultAvailableNotes = @[@0, @1, @2, @3, @4, @5, @6, @7, @8, @9, @10, @11];
+    // Only diatonic notes are enabled by default:
+    NSArray *defaultMajorNotes = @[@0, @2, @4, @5, @7, @9, @11];
+    NSArray *defaultMinorNotes = @[@0, @2, @3, @5, @7, @8, @10];
     NSDictionary *preferenceDefaults = @{@"NumberOfNotes" : @1,
                                          @"NoteNameType" : @kSolfege,
                                          @"KeyPreference" : @KEY_OF_C,
                                          @"OctaveRange" : @kTwoOctaves,
-                                         @"MajorKeyAvailableNotes" : defaultAvailableNotes,
-                                         @"MinorKeyAvailableNotes" : defaultAvailableNotes,
+                                         @"MajorKeyAvailableNotes" : defaultMajorNotes,
+                                         @"MinorKeyAvailableNotes" : defaultMinorNotes,
                                          @"Tonality" : @kMajor,
                                          @"RandomKey" : @FALSE,
                                          @"CadenceEveryTime" : @TRUE,
@@ -44,6 +46,10 @@
                                          @"OptionsPanelPositionX" : @393,
                                          @"OptionsPanelPositionY" : @537};
     [[NSUserDefaults standardUserDefaults] registerDefaults:preferenceDefaults];
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+    return YES;
 }
 
 - (void)awakeFromNib {
@@ -83,6 +89,7 @@
     [self setWindowForNumberOfNotes];
     
     // Note name type:
+    // Needs revising
     solfegeOrScaleDegrees = [[[NSUserDefaults standardUserDefaults] objectForKey:@"NoteNameType"] boolValue];
     if (solfegeOrScaleDegrees == kSolfege) {
         [_noteNameChoice selectCellAtRow:0 column:0];
@@ -571,6 +578,7 @@
     } else {
         availableNotes = [[NSUserDefaults standardUserDefaults] objectForKey:@"MinorKeyAvailableNotes"];
     }
+    
     
     octaveRange = [[[NSUserDefaults standardUserDefaults] objectForKey:@"OctaveRange"] boolValue];
     if ([availableNotes count] < numberOfNotes) {

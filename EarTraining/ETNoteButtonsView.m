@@ -27,6 +27,7 @@
 
 @synthesize currentSelectedNote;
 
+
 - (BOOL)acceptsFirstResponder {
     return YES;
 }
@@ -83,6 +84,7 @@
 {
 	[super drawRect:dirtyRect];
     
+    // Needs revising:
     if (noteNames == kSolfege) {
         for (int i = 0; i < 12; i++) {
             NSString *str = [solfege objectAtIndex:i];
