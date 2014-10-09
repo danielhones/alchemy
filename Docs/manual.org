@@ -1,4 +1,4 @@
-#+TITLE: Ear Training Manual
+#+TITLE: Ear Training Manual - Learning the Method
 #+AUTHOR: Daniel Hones
 
 * Introduction
@@ -31,20 +31,14 @@
    to compare them to, but we can develop the ability to tell what notes we hear within the context of a key.
    More on that in a few sections.
 ** Reading music
-   Despite the fact that ear training is often solely in the realm of music college classes, you do not need to be
-   able to read music in order to ear train.  In fact, I've written this program and this document specifically to
-   avoid written music.  The reason for this is simply that I believe in the value of ear training and I don't want
-   to scare anybody off from the idea just because they don't read music.  There are many great musicians who can't
-   read music and there are many great musicians who are great readers.  Personally, I can read music and I think
-   that anyone who's serious about learning music should learn to read.
-
-   Contrary to what a lot of "cool blues guys" and "cool rock guys" say, learning to read music will not ruin your
-   ear or your ability to be creative or stay true to your music, or whatever.  My hunch is that people who spout
-   off those reasons for not learning to read are either too scared or too lazy to learn.  I'll leave it to someone
-   else to convince them to learn to read and write music.  Fortunately for them, they can still use this program
-   to ear train.
+   Despite the fact that regimented ear training often exists solely in the realm of music college classes, you do
+   not need to be able to read music in order to ear train.  In fact, I've written this program and this document
+   specifically to avoid written music.  This is simply because I believe in the value of ear training and I don't
+   want to scare anybody off from the idea just because they don't read music.  There are many great musicians who
+   can't read music and there are many great musicians who are excellent readers.  Personally, I can read music and
+   I think that anyone who's serious about being a musician should learn to read.  But my goal here is not to
+   proselytize so I'll leave it at that and we can move on.
 ** How this method is different
-
 
 * Basics
 ** Overview
@@ -52,8 +46,9 @@
    training.  That includes the half steps and whole steps, the major scale, and the names of the notes within the
    major scale.  If you are confident in your knowledge of basic music theory you can probably skip this section.
    If there is anything unfamiliar to you in the rest of this document, refer back to this section to review.
-** What is a pitch?
-   
+** Pitches and notes
+   Discuss naming conventions here, for example call X a note, what does bX or #X mean.  Discuss how pitches are
+   categorized as one of 12 notes, octaves are a higher or lower "version" of the same pitch.
 *** Whole steps and half steps
     The smallest interval that exists in Western (I don't mean country and western) music is the half step.  The
     next smallest interval is a whole step.  Two half steps, as you would expect and hope, do in fact make one whole
@@ -73,15 +68,109 @@
     at the leftmost key) play what's called a major scale.  (((Sound clip of a C major scale))).  
 ** What is a key?
 *** The major scale
-*** Notes have names
-*** The piano keyboard
+    Use scale degrees.
+*** The minor scale
+** Solfege vs scale degrees
+   In addition to scale degrees, there is another way to name the notes in a key (and even more beyond that but we
+   won't worry about that).  It's called solfege, with a fancy accent over the first 'e' like this: solfège.  It
+   also goes by the names solfeggio and sol-fa.  In my experience, solfège is the more common name, but to save me
+   from having to remember how to type the accent, I'm going to call it solfege from here on out.  Solfege uses
+   pronounceable syllables to name the notes instead of numbers.  It's very likely that you've already heard solfege
+   syllables.  The song [[https://www.youtube.com/watch?v=xIjobdArtiA]["Do Re Mi Fa"]] from the "Sound of Music" is a famous example of using solfege syllables to
+   sing the notes of a major scale.
+
+   Before explaining what the syllables are and how the relate to the scale degrees we already know, let's take a
+   moment to answer the question you probably have - "Why on Earth are there TWO different ways to name the notes in
+   a major scale?  Is it to torture students and inexperienced musicians who don't know their theory?"  It's not
+   there to torture you, although it might have that effect.  The main benefit of solfege is that it's easy to sing
+   the syllables.  Just imagine Julie Andrews singing that song using scale degrees:
+   #+BEGIN_EXAMPLE
+   "1, a number that we start with.
+   2, a number that comes after 1.
+   3, the next number it's after 2.
+   4 comes next, isn't this fun"
+   #+END_EXAMPLE
+   It's a little ridiculous, not to mention nowhere near as memorable.  For the purposes of this ear training
+   method, you can decide whether you prefer scale degrees or solfege to name the notes, and just use that.  Here's
+   how the solfege syllables relate to the notes in a major scale:
+
+   | Scale degree |  1 |  2 |  3 |  4 |   5 |  6 |  7 |
+   |--------------+----+----+----+----+-----+----+----|
+   | Solfege      | Do | Re | Mi | Fa | Sol | La | Ti |
+
+   Now for the pronunciation - "do" is pronounced like "dough", "re" is pronounced like "ray" (a drop of golden
+   sun), and "mi" and "ti" sound like "me" and "tea" respectively.  This covers the diatonic notes in the major
+   scale.  What about the in between notes?  In solfege, when a note is flatted, you take the first letter of the
+   note and add "e" (sounds like "ay") as the vowel after it.  For example, ♭3 is "me" ("may") and ♭6 is "le"
+   ("lay").  We need to make an exception for ♭2 and we call it "ra", as in "ra ra sis boom ba."  To alter the
+   syllables for sharp notes, we take the first letter of the syllable and change the vowel sound to "i" ("ee").
+   For example, ♯4 becomes "fi" and ♯6 becomes "li."  Therefore, just as ♯2 is the same note as ♭3, "ri" is the same
+   note as "me."  They're enharmonic.  
+
+   Here are the syllables formatted as diatonic and nondiatonic in both major and minor keys.  Just like we did with
+   scale degrees, we'll only use the flat names for chromatic notes, to make it look a little cleaner and because
+   our goal here isn't to be pedantic, but to have a working knowledge of the basics.  Of course, if you want to
+   have a solid grasp of solfege, you should work on also using the enharmonic names.
+
+   | Major        |    |    |    |    |    |    |    |     |    |    |    |    |
+   |--------------+----+----+----+----+----+----+----+-----+----+----+----+----|
+   | Non-diatonic |    | Ra |    | Me |    |    | Se |     | Le |    | Te |    |
+   |--------------+----+----+----+----+----+----+----+-----+----+----+----+----|
+   | Diatonic     | Do |    | Re |    | Mi | Fa |    | Sol |    | La |    | Ti |
+
+   | Minor        |    |    |    |    |    |    |    |     |    |    |    |    |
+   |--------------+----+----+----+----+----+----+----+-----+----+----+----+----|
+   | Non-diatonic |    | Ra |    |    | Mi |    | Se |     |    | La |    | Ti |
+   | Diatonic     | Do |    | Re | Me |    | Fa |    | Sol | Le |    | Te |    |
 
 
 * How the method works
 ** The cadence
+   A cadence is a sequence of chords that often occurs at the end of a phrase or section of a piece of music.  When
+   it is used to conclude a piece of music, it usually has a sound of finality that clearly defines the key of the
+   composition (for more about cadences, see this [[http://en.wikipedia.org/wiki/Cadence_(music)][Wikipedia page]]).  Here's an example of a cadence.  The first and
+   last chords played are the tonic chord (or "home base") of the key: ((( Figure out how to play audio )))
+
+   In this method of ear training, we'll play a sequence consisting of four chords to establish the sound of the
+   key.  Then, we'll play one or more random notes simultaneously and learn to identify the function of each note in
+   that particular key.
 ** Identifying the notes
-*** Baby steps
-*** Different approaches
+   At first, trying to identify a note by listening for its function in a key is a daunting task.  How on Earth can
+   you hear a cadence, then a note, and then just pluck out its name from thin air?  As with everything else, we
+   start simply and progress in small increments.  The example below plays a cadence, and then plays Do (or scale
+   degree 1) in the key:   ((( another sound example )))
 
+   Play it several times and pay close attention to the way Do sounds.  To me it sounds stable and resolved, and
+   truth be told, it sounds rather plain and uninteresting.  What does it sound like to you?  All the other notes
+   sound less stable than Do. Often, it feels like your ear wants to hear them resolve to Do.  Listen to this next
+   example, which plays the cadence followed by the note Re: ((( another sound example here )))
 
+   To me, Re sounds like it has a healthy desire to move down a whole step to Do.  While it doesn't sound totally
+   unstable or dissonant, there is a bit of tension there.  Go back and play the previous two samples several times
+   and pay close attention to the difference in the way Do and Re sound.  Soon you will hear the difference between
+   them as clearly as you can see the difference between orange and purple.
 
+** Baby steps
+   Now that you can identify Do and Re, it's time to start adding other notes.  That is the real benefit of using
+   this program to practice this method of ear training.  You can customize which notes the program will choose from
+   to play after the cadence, allowing you to progress in small easy increments or isolate notes that you have
+   trouble with.  
+** Different approaches
+
+* Glossary
+  (maybe format as a table)
+  - cadence
+  - chromatic
+  - diatonic
+  - enharmonic
+  - half step: the smallest interval in Western music. 
+  - interval: the distance between two pitches
+  - key
+  - major scale
+  - minor scale
+  - non-diatonic
+  - pitch
+  - scale degree
+  - solfege
+  - timbre
+  - whole step: two half steps
