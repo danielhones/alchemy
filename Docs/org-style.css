@@ -1,5 +1,6 @@
 body {
-    background: #eee8d5;
+/*    background: #3e606f;*/
+    background: #193441;
     font-size: 110%;
     margin: 0px;
     padding: 0;
@@ -8,13 +9,22 @@ body {
 }
 
 #content {
-    background: #fdf6e3;
+    background: #fcfff5;
     margin-top: 0px;
     margin-left: 12%; margin-right: 12%;
     padding-top: 1px;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* Different gradients of green */
+a:link { color: #167f39; }
+a:visited { color: #45bf55; }
+a:hover { color: #044c29; }
 
 span.section-number-2, span.section-number-3, span.section-number-4 {
     display: inline-block;
@@ -26,6 +36,8 @@ ul {
     font-family: "Franklin Gothic", Helvetica, Arial, sans-serif;
     text-align: left;
 }
+
+
 
 #text-table-of-contents {
     margin-left: auto;
