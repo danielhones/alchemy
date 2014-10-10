@@ -1,17 +1,26 @@
 body {
-    background: #CCCCCC;
+    background: #eee8d5;
     font-size: 110%;
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-bottom: 5%;
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 0px;
     line-height: 1.3;
 }
 
 #content {
-    background: #FFFFFF;
+    background: #fdf6e3;
     margin-top: 0px;
+    margin-left: 12%; margin-right: 12%;
+    padding-top: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+span.section-number-2, span.section-number-3, span.section-number-4 {
+    display: inline-block;
+    width: 0px;
+    visibility: hidden;
+}
 
 ul {
     font-family: "Franklin Gothic", Helvetica, Arial, sans-serif;
@@ -23,15 +32,13 @@ ul {
     margin-right: auto;
 }
 
-
-
 h1, h2 { text-align: center; }
 
 h1, h2, h3, h4, h5, h6 {
-/*    text-align: center;  */
     font-weight: bold;
     font-family: "Franklin Gothic", Helvetica, Arial, sans-serif;
 }
+
 
 		
 p {
@@ -47,3 +54,12 @@ pre {
     font-size: 1.2em;
 }
 
+
+#postamble { 
+    text-align: center; 
+    font-size: .8em; 
+}
+
+p.date, p.author, p.creator {
+    display: inline;
+}
