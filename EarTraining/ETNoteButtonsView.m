@@ -146,11 +146,6 @@
     [self setNeedsDisplay:YES];
 }
 
-/*
-- (void)setCurrentSelectedNote:(NSNumber *)newNote {
-    currentSelectedNote = newNote;
-}
-*/
 - (void)mouseEntered:(NSEvent *)theEvent {
     NSRect tempRect;
     NSPoint mouseLocation = [self convertPoint:[theEvent locationInWindow] fromView:nil];
@@ -207,12 +202,6 @@
     NSMutableDictionary *attributes = [@{ NSFontAttributeName : labelFont,
                                           NSParagraphStyleAttributeName : style,
                                           NSForegroundColorAttributeName : [NSColor blackColor]} mutableCopy];
-    /*
-     NSMutableDictionary *attributes = [NSMutableDictionary dictionaryWithObjectsAndKeys:
-                                       labelFont, NSFontAttributeName,
-                                       style, NSParagraphStyleAttributeName,
-                                       [NSColor blackColor], NSForegroundColorAttributeName, nil];
-     */
     
     NSRect strRect = NSRectFromString([buttonRectangles objectAtIndex:i]);
     

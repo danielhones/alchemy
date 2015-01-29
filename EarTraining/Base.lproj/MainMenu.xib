@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6245"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -69,7 +70,7 @@
                 <menuItem title="View" id="295">
                     <menu key="submenu" title="View" id="296">
                         <items>
-                            <menuItem title="Options panel" id="7QD-w2-byH">
+                            <menuItem title="Open options panel" id="7QD-w2-byH">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="viewOptionsPanel:" target="QX3-kY-x1J" id="alQ-TX-F0O"/>
@@ -337,20 +338,20 @@ DQ
         <window title="Options" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="JDu-Na-Z55" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="393" y="537" width="162" height="275"/>
+            <rect key="contentRect" x="393" y="537" width="162" height="325"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <view key="contentView" id="5A3-o7-VsG">
-                <rect key="frame" x="0.0" y="0.0" width="162" height="275"/>
+                <rect key="frame" x="0.0" y="0.0" width="162" height="325"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="J6w-Kb-eBP">
-                        <rect key="frame" x="12" y="109" width="138" height="5"/>
+                        <rect key="frame" x="12" y="159" width="138" height="5"/>
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <font key="titleFont" metaFont="system"/>
                     </box>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Me3-V8-h6W">
-                        <rect key="frame" x="18" y="183" width="31" height="17"/>
+                        <rect key="frame" x="18" y="233" width="31" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Key:" id="Zy7-Ne-H8E">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -358,7 +359,7 @@ DQ
                         </textFieldCell>
                     </textField>
                     <popUpButton toolTip="If you're tired of C, pick a different key!" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jg0-4e-nUB">
-                        <rect key="frame" x="56" y="177" width="89" height="26"/>
+                        <rect key="frame" x="56" y="227" width="89" height="26"/>
                         <popUpButtonCell key="cell" type="push" title="C major" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Dap-Um-k7T" id="1Iv-gB-oQg">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="menu"/>
@@ -375,7 +376,7 @@ DQ
                         </connections>
                     </popUpButton>
                     <button toolTip="Check this if you want each question to be in a random key" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Hf-jh-Jid">
-                        <rect key="frame" x="31" y="144" width="100" height="18"/>
+                        <rect key="frame" x="31" y="194" width="100" height="18"/>
                         <buttonCell key="cell" type="check" title="Random key" bezelStyle="regularSquare" imagePosition="left" inset="2" id="NEP-dh-9mH">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
@@ -385,7 +386,7 @@ DQ
                         </connections>
                     </button>
                     <matrix verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SMK-A1-hTi">
-                        <rect key="frame" x="20" y="221" width="122" height="18"/>
+                        <rect key="frame" x="20" y="271" width="122" height="18"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         <size key="cellSize" width="59" height="18"/>
                         <size key="intercellSpacing" width="4" height="2"/>
@@ -412,7 +413,7 @@ DQ
                         </connections>
                     </matrix>
                     <button toolTip="Uncheck this if you don't want to hear the cadence every time" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kfH-Qj-i6B">
-                        <rect key="frame" x="31" y="118" width="103" height="18"/>
+                        <rect key="frame" x="31" y="168" width="103" height="18"/>
                         <buttonCell key="cell" type="check" title="Play cadence" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="SWu-Sa-SxL">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
@@ -422,7 +423,7 @@ DQ
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="119-Dq-YUl">
-                        <rect key="frame" x="55" y="248" width="53" height="17"/>
+                        <rect key="frame" x="55" y="298" width="53" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Options" id="aGJ-nc-FUe">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -430,7 +431,7 @@ DQ
                         </textFieldCell>
                     </textField>
                     <matrix toolTip="Change the way the notes are named." verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbd-rq-4cR">
-                        <rect key="frame" x="12" y="20" width="111" height="38"/>
+                        <rect key="frame" x="12" y="70" width="111" height="38"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         <size key="cellSize" width="108" height="18"/>
                         <size key="intercellSpacing" width="4" height="2"/>
@@ -455,7 +456,7 @@ DQ
                         </connections>
                     </matrix>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wds-gh-uqY">
-                        <rect key="frame" x="10" y="79" width="44" height="17"/>
+                        <rect key="frame" x="10" y="129" width="44" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Notes:" id="7Tu-Uv-cVf">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -463,7 +464,7 @@ DQ
                         </textFieldCell>
                     </textField>
                     <textField toolTip="Set the number of notes per question" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eqU-Ge-Lms">
-                        <rect key="frame" x="68" y="76" width="31" height="22"/>
+                        <rect key="frame" x="68" y="126" width="31" height="22"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="NLU-tM-XFe">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -474,16 +475,32 @@ DQ
                         </connections>
                     </textField>
                     <stepper toolTip="Set the number of notes per question" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qun-JU-RdU">
-                        <rect key="frame" x="96" y="73" width="19" height="27"/>
+                        <rect key="frame" x="96" y="123" width="19" height="27"/>
                         <stepperCell key="cell" alignment="left" minValue="1" maxValue="8" doubleValue="1" autorepeat="NO" id="Dq8-j8-JHx"/>
                         <connections>
                             <action selector="numberOfNotesChange:" target="QX3-kY-x1J" id="prw-If-30h"/>
                             <binding destination="QX3-kY-x1J" name="value" keyPath="numberOfNotes" id="qFe-OH-tKc"/>
                         </connections>
                     </stepper>
+                    <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="kA5-N8-IRH">
+                        <rect key="frame" x="12" y="54" width="138" height="5"/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <font key="titleFont" metaFont="system"/>
+                    </box>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gS0-LH-8Vx">
+                        <rect key="frame" x="6" y="13" width="150" height="32"/>
+                        <buttonCell key="cell" type="push" title="More preferences" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FbM-gh-HK5">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="openPreferences:" target="QX3-kY-x1J" id="gJ2-fP-2oM"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="188" y="517.5"/>
+            <point key="canvasLocation" x="188" y="542.5"/>
         </window>
         <customObject id="QX3-kY-x1J" customClass="AppController">
             <connections>

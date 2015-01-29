@@ -40,13 +40,6 @@
             NSString *fileName = [noteFileNames objectAtIndex:i];
             NSString *noteFilePath = [[NSString alloc] initWithFormat:@"%@%@", noteFilesDirectory, fileName];
             
-            /*
-            NSString *noteFilePath = [[NSString alloc] initWithFormat:@"%@%@",
-                                       kNoteFilesDirectory,
-                                       [noteFileNames objectAtIndex:i]];
-            NSSound *noteSound = [[NSSound alloc] initWithContentsOfFile:noteFilePath byReference:NO];
-            */
-            
             NSSound *noteSound = [[NSSound alloc] initWithContentsOfFile:noteFilePath byReference:NO];
             [noteSound setVolume:0.70];
             [_notesArray addObject:noteSound];

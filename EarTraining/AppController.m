@@ -1,7 +1,7 @@
 /*
- Remember to set it up so that closing the main window quits the program.
- And change the Note and Cadence classes so they point to where the sound files will be
- within the application package.
+ Ear Training App
+ (c) 2015 Daniel Hones
+ 
  */
 
 #import "AppController.h"
@@ -161,11 +161,6 @@
                                                    forKeyPath:@"currentSelectedNote"
                                                       options:NSKeyValueObservingOptionNew
                                                       context:NULL];
-        /*
-        [[noteButtonsViewOutlets objectAtIndex:i] addObserver:[noteSelectionSliderOutlets objectAtIndex:i]
-                                                   forKeyPath:@"currentSelectedNote"
-                                                      options:NSKeyValueObservingOptionNew
-                                                      context:NULL];*/
         
         // Set up the text fields as observers for each guess and when user clicks a new button
         [[currentNoteGuesses objectAtIndex:i] addObserver:[textFieldOutlets objectAtIndex:i]
@@ -482,16 +477,7 @@
     [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithInt:newKey] forKey:@"KeyPreference"];
     
     [currentCadence setKey:newKey];
-    /*
-    int oldKey = [currentCadence key];
-    [currentCadence setKey:(int)[_keyPopUpMenu indexOfSelectedItem]];
-    // Need to transpose the notes too:
-    for (int i = 0; i < numberOfNotes; i++) {
-        int note = [[currentNotes objectAtIndex:i] selectedNote];
-        int code = [self codeForNoteNumber:note andKey:oldKey];
-        note = [self noteNumberForCode:code andKey:[currentCadence key]];
-        [[currentNotes objectAtIndex:i] setSelectedNote:note];
-    } */
+    
     [self showStartButtonAndDisableOthers];
 }
 
@@ -542,9 +528,13 @@
 }
 
 - (IBAction)openPreferences:(id)sender {
+    
     if (!preferences) {
+        // Try moving this code to the init method so that the first time the preferences window is opened,
+        // it loads faster.  Although this might only be a problem when running from XCode
         preferences = [[PreferencesController alloc] initWithWindowNibName:@"Preferences"];
     }
+    
     [preferences showWindow:self];
 }
 

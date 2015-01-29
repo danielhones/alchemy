@@ -79,7 +79,7 @@
    syllables.  The song [[https://www.youtube.com/watch?v=xIjobdArtiA]["Do Re Mi Fa"]] from the "Sound of Music" is a famous example of using solfege syllables to
    sing the notes of a major scale.
 
-   Before explaining what the syllables are and how the relate to the scale degrees we already know, let's take a
+   Before explaining what the syllables are and how they relate to the scale degrees we already know, let's take a
    moment to answer the question you probably have - "Why on Earth are there TWO different ways to name the notes in
    a major scale?  Is it to torture students and inexperienced musicians who don't know their theory?"  It's not
    there to torture you, although it might have that effect.  The main benefit of solfege is that it's easy to sing

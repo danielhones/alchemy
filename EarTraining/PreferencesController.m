@@ -6,6 +6,10 @@
 //  Copyright (c) 2014 Daniel Hones. All rights reserved.
 //
 
+/*
+ I've hidden the octave range selection in the .xib file but left the implementation for the preference here.
+ */
+
 #import "PreferencesController.h"
 #import "KeysAndNotes.h"
 
@@ -45,13 +49,11 @@
                                _majorSe, _majorSol, _majorLe, _majorLa, _majorTe, _majorTi];
     minorNoteChoiceOutlets = @[_minorDo, _minorRa, _minorRe, _minorMe, _minorMi, _minorFa,
                                _minorSe, _minorSol, _minorLe, _minorLa, _minorTe, _minorTi];
-    
-    [self loadPreferences];
 }
 
 - (void)showWindow:(id)sender {
     [super showWindow:self];
-    
+    NSLog(@"showWindow");
     [self loadPreferences];
 }
 

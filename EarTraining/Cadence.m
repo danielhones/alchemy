@@ -9,9 +9,6 @@
 #import "Cadence.h"
 #import "KeysAndNotes.h"
 
-//#define kCadenceFilesDirectory @"/Users/daniel/Developer/ETAudioFiles/Cadences/"
-
-
 @interface Cadence ()
 
 @property (nonatomic, retain) NSMutableArray *majorCadenceArray;
@@ -45,15 +42,6 @@
             NSString *majorFilePath = [[NSString alloc] initWithFormat:@"%@%@", cadenceFilesDirectory, majorFileName];
             NSString *minorFilePath = [[NSString alloc] initWithFormat:@"%@%@", cadenceFilesDirectory, minorFileName];
             
-            /*
-            NSString *majorFilePath = [[NSString alloc] initWithFormat:@"%@%@",
-                                  kCadenceFilesDirectory,
-                                  [majorCadenceFileNames objectAtIndex:i]];
-            NSString *minorFilePath = [[NSString alloc] initWithFormat:@"%@%@",
-                                       kCadenceFilesDirectory,
-                                       [minorCadenceFileNames objectAtIndex:i]];
-             */
-
             NSSound *majorCadence = [[NSSound alloc] initWithContentsOfFile:majorFilePath byReference:NO];
             NSSound *minorCadence = [[NSSound alloc] initWithContentsOfFile:minorFilePath byReference:NO];
 
