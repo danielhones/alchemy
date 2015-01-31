@@ -158,19 +158,19 @@
 ** Different approaches
 
 * Glossary
-  (maybe format as a table)
-  - cadence
-  - chromatic
-  - diatonic
-  - enharmonic
-  - half step: the smallest interval in Western music. 
-  - interval: the distance between two pitches
-  - key
-  - major scale
-  - minor scale
-  - non-diatonic
-  - pitch
-  - scale degree
-  - solfege
-  - timbre
-  - whole step: two half steps
+  | cadence      |                                         |
+  | chromatic    |                                         |
+  | diatonic     |                                         |
+  | enharmonic   |                                         |
+  | half step    | the smallest interval in Western music. |
+  | interval     | the distance between two pitches        |
+  | key          |                                         |
+  | major scale  |                                         |
+  | minor scale  |                                         |
+  | non-diatonic |                                         |
+  | pitch        |                                         |
+  | scale degree |                                         |
+  | solfege      |                                         |
+  | timbre       |                                         |
+  | whole step   | two half steps                          |
+

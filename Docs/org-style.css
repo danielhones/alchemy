@@ -22,8 +22,8 @@ a {
 
 /* Like the link color, need to find complimentary other ones */
 a:link { color: #2222ff; }
-a:visited { color: #2222aa; }
-a:hover { color: #2222ff; }
+a:visited { color: #8822aa; }
+a:hover { color: #11aaff; }
 
 span.section-number-2, span.section-number-3, span.section-number-4 {
     display: inline-block;
@@ -75,3 +75,5 @@ pre {
 p.date, p.author, p.creator {
     display: inline;
 }
+
+
