@@ -40,6 +40,7 @@
    proselytize so I'll leave it at that and we can move on.
 ** How this method is different
 
+
 * Basics
 ** Overview
    This section will cover the just the basic knowledge you need in order to start using this method of ear
