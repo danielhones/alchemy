@@ -15,7 +15,6 @@
    that you don't /need/ to ear train.  You don't /need/ to eat healthy either, but it's a probably a good idea to
    try.  
 
-   
 ** Perfect pitch
    Perfect pitch (or absolute pitch) is the ability to hear a note or notes and know instantly what pitches they
    are, without having to hear a reference pitch.  So far, all respectable research has concluded that a person has
@@ -39,38 +38,63 @@
    I think that anyone who's serious about being a musician should learn to read.  But my goal here is not to
    proselytize so I'll leave it at that and we can move on.
 ** How this method is different
+   The traditional approach to ear training consists of learning the sounds of the intervals between individual
+   notes.  These are usually learned outside of the context of the key.  One problem with this approach is that
+   when it is time to hear the intervals in the context of a key (as they would be in real music), it can be
+   difficult to tell which notes in the key are actually forming the interval.  If you take the interval of a major
+   third for example, there are three different major thirds that occur in the major scale.  Each of them sound
+   markedly different in context because they are formed from notes that have different sounds within the key.
+   
+   The way this method teaches ear training, we learn the sounds of the individual notes first, so that problem
+   never comes up.  Learning which notes within a scale make up a major third then becomes a matter of learning
+   music theory, rather than being the objective of ear training.  Of course, as with most things in life, it's
+   probably beneficial to try using both approaches.
+   
 
 
 * Basics
 ** Overview
    This section will cover the just the basic knowledge you need in order to start using this method of ear
-   training.  That includes the half steps and whole steps, the major scale, and the names of the notes within the
-   major scale.  If you are confident in your knowledge of basic music theory you can probably skip this section.
-   If there is anything unfamiliar to you in the rest of this document, refer back to this section to review.
+   training.  That includes learning about half steps and whole steps, the major scale, and the names of the notes
+   within the major scale.  If you are confident in your knowledge of basic music theory you can probably skip this
+   section.  If there is anything unfamiliar to you in the rest of this document, refer back to this section to
+   review.
 ** Pitches and notes
-   Discuss naming conventions here, for example call X a note, what does bX or #X mean.  Discuss how pitches are
-   categorized as one of 12 notes, octaves are a higher or lower "version" of the same pitch.
+   Most (probably all) of the music you've ever listened to is made of only 12 different notes.  These notes are
+   also called pitches.  Some pitches are higher than others.  Here's what those pitches sound like, played from a
+   lower pitch to a higher one (((sound example here))).  You can think of those pitches as being stacked on top of
+   each other.  When we run out of those 12 pitches, we stack the pattern on top of itself again.  Here's the sound
+   clip from before, with another 12 pitches played afterwards, all continuously rising in pitch (((another sound
+   example))).  So when the pattern of 12 pitches repeats, we get another set of the same "kind" of note, but it
+   sounds higher.  This is called an octave.  Notes that are an octave apart sound like higher or lower versions of
+   the same note.  Here's an example of three notes that are each an octave apart, starting with the lower note
+   (((another sound example here))).  
 *** Whole steps and half steps
     The smallest interval that exists in Western (I don't mean country and western) music is the half step.  The
-    next smallest interval is a whole step.  Two half steps, as you would expect and hope, do in fact make one whole
-    step.  On certain instruments, it's possible to play pitches that are in between the 12 pitches we are used to
-    hearing.  In this case, there are intervals smaller than a half step.  For our purposes, we don't need to be
-    concerned with hearing pitches that are in between the 12 we know because they usually end up just sounding out
-    of tune.  If you decide later on that you want to develop your ear for intonation or microtones (as the in
-    between pitches are called), you can find other methods and tools to practice that.  In this program, everything
-    is in tune.
+    next smallest interval is a whole step.  Two half steps, as you would hope, do in fact make one whole step.  On
+    certain instruments, it's possible to play pitches that are in between the 12 pitches we are used to hearing.
+    In this case, there are intervals smaller than a half step.  For our purposes, we don't need to be concerned
+    with hearing pitches that are in between the 12 we know because they usually end up just sounding out of tune.
+    If you decide later on that you want to develop your ear for intonation or microtones (as the in between pitches
+    are called), you can find other methods and tools to practice that.  In this program, all notes are in tune.
 *** The piano keyboard
     Most people have seen a piano keyboard.  If you haven't it looks like this:  (((Picture of piano keyboard)))
 
-    A full-size piano has 88 keys and each plays a different pitch.  While that sounds overwhelming at first, we
+    A full-size piano has 88 keys and each key plays a different pitch.  While that sounds overwhelming at first, we
     know that there are actually only 12 different notes in Western music.  And if you look closer at the piano, you
-    can see that huge mess of white and black keys is actually just a pattern that repeats: (((Picture of one octave
-    of keyboard C to B))).  In that pattern, there are 7 white keys and 5 black keys.  The white keys (if you start
-    at the leftmost key) play what's called a major scale.  (((Sound clip of a C major scale))).  
+    can see that huge mess of white and black keys is just a pattern that repeats: (((Picture of one octave of
+    keyboard C to B))).  In that pattern, there are 7 white keys and 5 black keys.  The white keys (if you start at
+    the leftmost key) play what's called a major scale.  It sounds like this (((Sound clip of a C major scale))).
+    A major scale is just a pattern of whole steps and half steps.  Every major scale is built from the same
+    pattern, although they start on pitches.  Given 12 different pitches, there are 12 different major scales in
+    Western music.  [fn:: Due to the fact that some notes have two different names, there actually 15 different major
+    scales when writing out the scales on paper.  But 3 of those scales are redundant and since we're not concerned
+    with naming actual pitches here, we will just take it as a fact that there are 12 different major scales, one
+    starting on each of the 12 pitches.]
 ** What is a key?
-*** The major scale
-    Use scale degrees.
-*** The minor scale
+   A key is what sounds like the resolution point or "home base" of a piece of music.  You could also think of it as
+   providing a context for the notes you hear in a piece of music.  Notes that are in the key have a particular
+   sound and notes that are outside the key have a different sound.  
 ** Solfege vs scale degrees
    In addition to scale degrees, there is another way to name the notes in a key (and even more beyond that but we
    won't worry about that).  It's called solfege, with a fancy accent over the first 'e' like this: solfège.  It
@@ -83,17 +107,14 @@
    Before explaining what the syllables are and how they relate to the scale degrees we already know, let's take a
    moment to answer the question you probably have - "Why on Earth are there TWO different ways to name the notes in
    a major scale?  Is it to torture students and inexperienced musicians who don't know their theory?"  It's not
-   there to torture you, although it might have that effect.  The main benefit of solfege is that it's easy to sing
-   the syllables.  Just imagine Julie Andrews singing that song using scale degrees:
-   #+BEGIN_EXAMPLE
-   "1, a number that we start with.
-   2, a number that comes after 1.
-   3, the next number it's after 2.
-   4 comes next, isn't this fun"
-   #+END_EXAMPLE
-   It's a little ridiculous, not to mention nowhere near as memorable.  For the purposes of this ear training
-   method, you can decide whether you prefer scale degrees or solfege to name the notes, and just use that.  Here's
-   how the solfege syllables relate to the notes in a major scale:
+   there to torture you, although it might have that effect.  The main benefit of solfege is that the names are
+   constructed so that they're easy to sing and each is only one syllable (not like "seven" or "flat three").  If
+   you imagine Julie Andrews singing that song using scale degrees rather than solfege, it wouldn't be nearly as
+   memorable. 
+
+   For the purposes of this ear training method, you can decide whether you prefer scale degrees or solfege to name
+   the notes, and just use that.  There's an option for each one in the program.  Here's how the solfege syllables
+   relate to the notes in a major scale:
 
    | Scale degree |  1 |  2 |  3 |  4 |   5 |  6 |  7 |
    |--------------+----+----+----+----+-----+----+----|
@@ -123,7 +144,7 @@
    |--------------+----+----+----+----+----+----+----+-----+----+----+----+----|
    | Non-diatonic |    | Ra |    |    | Mi |    | Se |     |    | La |    | Ti |
    | Diatonic     | Do |    | Re | Me |    | Fa |    | Sol | Le |    | Te |    |
-
+   
 
 * How the method works
 ** The cadence
@@ -133,7 +154,7 @@
    last chords played are the tonic chord (or "home base") of the key: ((( Figure out how to play audio )))
 
    In this method of ear training, we'll play a sequence consisting of four chords to establish the sound of the
-   key.  Then, we'll play one or more random notes simultaneously and learn to identify the function of each note in
+   key.  Then, we'll play one or more random notes simultaneously and learn to identify the sound of each note in
    that particular key.
 ** Identifying the notes
    At first, trying to identify a note by listening for its function in a key is a daunting task.  How on Earth can
@@ -156,7 +177,7 @@
    this program to practice this method of ear training.  You can customize which notes the program will choose from
    to play after the cadence, allowing you to progress in small easy increments or isolate notes that you have
    trouble with.  
-** Different approaches
+
 
 * Glossary
   | cadence      |                                         |

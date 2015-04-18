@@ -70,6 +70,9 @@
 
 * Quick reference
 ** Options panel
+   Several screenshots here of the options panel.  When explaining each feature, use the screenshot with a big red
+   circle or something highlighting the particular feature. 
 ** More preferences
+   Same idea here.  But probably just one screenshot is necessary
 ** Keyboard shortcuts
-   
+   Table of keyboard shortcuts, that's all.

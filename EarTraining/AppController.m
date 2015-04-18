@@ -62,7 +62,6 @@
     // Set up RGB colors for the text field backgrounds:
     myRed = [NSColor colorWithCalibratedRed:0.9 green:0.0 blue:0 alpha:0.7f];
     myGreen = [NSColor colorWithCalibratedRed:0.0 green:0.74 blue:0.22 alpha:0.6f];
-    //myYellow = [NSColor colorWithCalibratedRed:0.969 green:0.929 blue:0.231 alpha:0.7f];
     myOrange = [NSColor colorWithCalibratedRed:1.0 green:0.62 blue:0.0 alpha:0.8f];
     myTransparentBlue = [NSColor colorWithCalibratedRed:0.0 green:0.5 blue:1.0 alpha:0.5f];
     hoverBlue = [NSColor colorWithCalibratedRed:0.0 green:0.5 blue:1.0 alpha:0.7f];
@@ -530,8 +529,6 @@
 - (IBAction)openPreferences:(id)sender {
     
     if (!preferences) {
-        // Try moving this code to the init method so that the first time the preferences window is opened,
-        // it loads faster.  Although this might only be a problem when running from XCode
         preferences = [[PreferencesController alloc] initWithWindowNibName:@"Preferences"];
     }
     

@@ -31,6 +31,11 @@ span.section-number-2, span.section-number-3, span.section-number-4 {
     visibility: hidden;
 }
 
+table {
+    margin: 0 auto;
+    rules: "all";
+}
+
 ul {
     font-family: "Franklin Gothic", Helvetica, Arial, sans-serif;
     text-align: left;
