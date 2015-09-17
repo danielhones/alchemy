@@ -23,12 +23,11 @@ training<sup>[1](https://en.wikipedia.org/wiki/Absolute_pitch#Nature_vs._nurture
 and if you're reading this then you probably don't have it either.  That's nothing to be ashamed of.  Only 1 in 10,000
 people have the ability<sup>[2](http://www.sciencemag.org/content/268/5211/621.1)</sup>.  The
 only thing the rest of us can do is cry and come up with reasons why we're glad we aren't cursed with such an
-affliction.  And of course, we can ear train.
+affliction.
 
-While having perfect pitch would be very cool, probably the closest most of us can get is having very strong
-relative (or functional pitch).  We won't be able to tell precisely what notes we hear without a reference pitch
-to compare them to, but we can develop the ability to tell what notes we hear within the context of a key.
-More on that in a few sections.
+While having perfect pitch would be very cool, the closest most of us can get is having very strong relative (or
+functional pitch).  We won't be able to tell precisely what notes we hear without a reference pitch to compare them to,
+but we can develop the ability to tell what notes we hear within the context of a key.  More on that in a few sections.
    
 ## Reading music
 Despite the fact that regimented ear training often exists solely in the realm of music college classes, you do
@@ -63,14 +62,26 @@ review.
    
 ## Pitches and notes
 Most (probably all) of the music you've ever listened to is made of only 12 different notes.  These notes are
-also called pitches.  Some pitches are higher than others.  Here's what those pitches sound like, played from a
-lower pitch to a higher one (((sound example here))).  You can think of those pitches as being stacked on top of
-each other.  When we run out of those 12 pitches, we stack the pattern on top of itself again.  Here's the sound
-clip from before, with another 12 pitches played afterwards, all continuously rising in pitch (((another sound
-example))).  So when the pattern of 12 pitches repeats, we get another set of the same "kind" of note, but it
-sounds higher.  This is called an octave.  Notes that are an octave apart sound like higher or lower versions of
-the same note.  Here's an example of three notes that are each an octave apart, starting with the lower note
-(((another sound example here))).
+also called pitches.  Some pitches are higher than others.  Here's what those 12 pitches sound like ascending:
+
+<center>
+<audio controls id="chromatic-scale-example">
+  <source src="audio/chromatic_scale.mp3" type="audio/mpeg">
+  <i>Your browser doesn't support this audio</i>
+</audio>
+</center>
+
+You can think of those pitches as being stacked on top of each other.  When we run out of those 12 pitches, we stack the
+pattern on top of itself again.  So when the pattern of 12 pitches repeats, we get another set of the same "kind" of
+note, but it sounds higher.  This is called an octave.  Notes that are an octave apart sound like higher or lower
+versions of the same note.  Here's an example of three notes that are each an octave apart, starting with the lower note
+
+<center>
+<audio controls id="octave-example">
+  <source src="audio/three_octaves.mp3" type="audio/mpeg">
+  <i>Your browser doesn't support this audio</i>
+</audio>
+</center>
    
 **Whole steps and half steps**<br>
 The smallest interval that exists in Western (I don't mean country and western) music is the half step.  The
@@ -82,13 +93,21 @@ If you decide later on that you want to develop your ear for intonation or micro
 are called), you can find other methods and tools to practice that.  In this program, all notes are in tune.
     
 **The piano keyboard**<br>
-Most people have seen a piano keyboard.  If you haven't it looks like this:  (((Picture of piano keyboard)))
+<center>![Piano keyboard](img/piano_keyboard.png "2 octave keyboard")</center>
 
 A full-size piano has 88 keys and each key plays a different pitch.  While that sounds overwhelming at first, we
 know that there are actually only 12 different notes in Western music.  And if you look closer at the piano, you
 can see that huge mess of white and black keys is just a pattern that repeats: (((Picture of one octave of
 keyboard C to B))).  In that pattern, there are 7 white keys and 5 black keys.  The white keys (if you start at
-the leftmost key) play what's called a major scale.  It sounds like this (((Sound clip of a C major scale))).
+the leftmost key) play what's called a major scale.  It sounds like this:
+
+<!-- Write custom controls for the audio elements see here: http://stackoverflow.com/questions/7638754/html-5-audio-tag-custom-controls -->
+<center>
+<audio controls id="c-major-scale-example">
+  <source src="audio/c_major_scale.mp3" type="audio/mpeg">
+  <i>Your browser doesn't support this audio</i>
+</audio></center>
+
 A major scale is just a pattern of whole steps and half steps.  Every major scale is built from the same
 pattern, although they start on pitches.  Given 12 different pitches, there are 12 different major scales in
 Western music.  [fn:: Due to the fact that some notes have two different names, there actually 15 different major
@@ -101,9 +120,9 @@ A key is what sounds like the resolution point or "home base" of a piece of musi
 providing a context for the notes you hear in a piece of music.  Notes that are in the key have a particular
 sound and notes that are outside the key have a different sound.
 
-## Solfege vs scale degrees
+## Solf&#xe8;ge vs scale degrees
 In addition to scale degrees, there is another way to name the notes in a key (and even more beyond that but we won't
-worry about that).  It's called solfege, with a fancy accent over the first 'e' like this: solfège.  To save me from
+worry about that).  It's called solfege, with a fancy accent over the first 'e' like this: solf&#xe8;ge.  To save me from
 having to remember how to type the accent, I'm going to call it solfege from here on out.  Solfege uses pronounceable
 syllables to name the notes instead of numbers.  It's very likely that you've already heard solfege syllables.  The song
 ["Do Re Mi Fa"](https://www.youtube.com/watch?v=_dpGmAc3kMk) from the "Sound of Music" is a famous example of solfege.
@@ -119,43 +138,58 @@ For the purposes of this ear training method, you can decide whether you prefer 
 the notes, and just use that.  There's an option for each one in the program.  Here's how the solfege syllables
 relate to the notes in a major scale:
 
-   | Scale degree |  1 |  2 |  3 |  4 |   5 |  6 |  7 |
-   |--------------+----+----+----+----+-----+----+----|
-   | Solfege      | Do | Re | Mi | Fa | Sol | La | Ti |
+|----------------|----|----|----|----|-----|----|----|
+**Scale degree** |  1 |  2 |  3 |  4 |   5 |  6 |  7 |
+**Solfege**      | Do | Re | Mi | Fa | Sol | La | Ti |
 
-Now for the pronunciation - "do" is pronounced like "dough", "re" is pronounced like "ray" (a drop of golden
-sun), and "mi" and "ti" sound like "me" and "tea" respectively.  This covers the diatonic notes in the major
-scale.  What about the in between notes?  In solfege, when a note is flatted, you take the first letter of the
-note and add "e" (sounds like "ay") as the vowel after it.  For example, ♭3 is "me" ("may") and ♭6 is "le"
-("lay").  We need to make an exception for ♭2 and we call it "ra", as in "ra ra sis boom ba."  To alter the
-syllables for sharp notes, we take the first letter of the syllable and change the vowel sound to "i" ("ee").
-For example, ♯4 becomes "fi" and ♯6 becomes "li."  Therefore, just as ♯2 is the same note as ♭3, "ri" is the same
-note as "me."  They're enharmonic.  
+Now for the pronunciation - "do" is pronounced like "dough", "re" is pronounced like "ray" (a drop of golden sun), and
+"mi" and "ti" sound like "me" and "tea" respectively.  This covers the diatonic notes in the major scale.  What about
+the in between notes?  In solfege, when a note is flatted, you take the first letter of the note and add "e" (sounds
+like "ay") as the vowel after it.  For example, &#x266d;3 is "me" ("may") and &#x266d;6 is "le" ("lay").  We need to
+make an exception for &#x266d;2 and we call it "ra", as in "ra ra sis boom ba."  To alter the syllables for sharp notes,
+we take the first letter of the syllable and change the vowel sound to "i" ("ee").  For example, &#x266f;4 becomes "fi"
+and &#x266f;6 becomes "li."  Therefore, just as &#x266f;2 is the same note as &#x266d;3, "ri" is the same note as "me."
+They're enharmonic.
 
 Here are the syllables formatted as diatonic and nondiatonic in both major and minor keys.  Just like we did with
 scale degrees, we'll only use the flat names for chromatic notes, to make it look a little cleaner and because
 our goal here isn't to be pedantic, but to have a working knowledge of the basics.  Of course, if you want to
 have a solid grasp of solfege, you should work on also using the enharmonic names.
 
-   | Major        |    |    |    |    |    |    |    |     |    |    |    |    |
-   |--------------+----+----+----+----+----+----+----+-----+----+----+----+----|
-   | Non-diatonic |    | Ra |    | Me |    |    | Se |     | Le |    | Te |    |
-   |--------------+----+----+----+----+----+----+----+-----+----+----+----+----|
-   | Diatonic     | Do |    | Re |    | Mi | Fa |    | Sol |    | La |    | Ti |
 
-   | Minor        |    |    |    |    |    |    |    |     |    |    |    |    |
-   |--------------+----+----+----+----+----+----+----+-----+----+----+----+----|
-   | Non-diatonic |    | Ra |    |    | Mi |    | Se |     |    | La |    | Ti |
-   | Diatonic     | Do |    | Re | Me |    | Fa |    | Sol | Le |    | Te |    |
+[**Major scale**]
+|------------|----|----|----|----|----|----|----|-----|----|----|----|----|
+Non-diatonic |    | Ra |    | Me |    |    | Se |     | Le |    | Te |    |
+Diatonic     | Do |    | Re |    | Mi | Fa |    | Sol |    | La |    | Ti |
+
+[**Minor scale**]
+|------------|----|----|----|----|----|----|----|-----|----|----|----|----|
+Non-diatonic |    | Ra |    |    | Mi |    | Se |     |    | La |    | Ti |
+Diatonic     | Do |    | Re | Me |    | Fa |    | Sol | Le |    | Te |    |
    
 
 # How the method works
 ## The cadence
 A cadence is a sequence of chords that often occurs at the end of a phrase or section of a piece of music.  When it is
 used to conclude a piece of music, it usually has a sound of finality that clearly defines the key of the composition
-(for more about cadences, see this [[http://en.wikipedia.org/wiki/Cadence_(music)][Wikipedia page]]).  Here's an example
-of a cadence.  The first and last chords played are the tonic chord (or "home base") of the key: ((( Figure out how to
-play audio )))
+(for more about cadences, see this [Wikipedia page](http://en.wikipedia.org/wiki/Cadence_(music)).  Here's an example
+of a major cadence.  The first and last chords played are the tonic chord (or "home base") of the key:
+
+<center>
+<audio controls id="major-cadence-example">
+  <source src="audio/major_cadence_example.mp3" type="audio/mpeg">
+  <i>Your browser doesn't support this audio</i>
+</audio>
+</center>
+
+And this is a cadence in a minor key:
+
+<center>
+<audio controls id="minor-cadence-example">
+  <source src="audio/minor_cadence_example.mp3" type="audio/mpeg">
+  <i>Your browser doesn't support this audio</i>
+</audio>
+</center>
 
 In this method of ear training, we'll play a sequence consisting of four chords to establish the sound of the key.
 Then, we'll play one or more random notes simultaneously and learn to identify the sound of each note in that particular
@@ -165,12 +199,25 @@ key.
 At first, trying to identify a note by listening for its function in a key is a daunting task.  How on Earth can you
 hear a cadence, then a note, and then just pluck out its name from thin air?  As with everything else, we start simply
 and progress in small increments.  The example below plays a cadence, and then plays Do (or scale degree 1) in the key:
-((( another sound example )))
+
+<center>
+<audio controls id="cadence-and-do-example">
+  <source src="audio/cadence_and_do.mp3" type="audio/mpeg">
+  <i>Your browser doesn't support this audio</i>
+</audio>
+</center>
 
 Play it several times and pay close attention to the way Do sounds.  To me it sounds stable and resolved, and truth be
 told, it sounds rather plain and uninteresting.  What does it sound like to you?  All the other notes sound less stable
 than Do. Often, it feels like your ear wants to hear them resolve to Do.  Listen to this next example, which plays the
-cadence followed by the note Re: ((( another sound example here )))
+cadence followed by the note Re:
+
+<center>
+<audio controls id="cadence-and-re-example">
+  <source src="audio/cadence_and_re.mp3" type="audio/mpeg">
+  <i>Your browser doesn't support this audio</i>
+</audio>
+</center>
 
 To me, Re sounds like it has a healthy desire to move down a whole step to Do.  While it doesn't sound totally unstable
 or dissonant, there is a bit of tension there.  Go back and play the previous two samples several times and pay close
@@ -184,19 +231,21 @@ after the cadence, allowing you to progress in small easy increments or isolate 
 
 
 # Glossary
-  | cadence      |                                         |
-  | chromatic    |                                         |
-  | diatonic     |                                         |
-  | enharmonic   |                                         |
-  | half step    | the smallest interval in Western music. |
-  | interval     | the distance between two pitches        |
-  | key          |                                         |
-  | major scale  |                                         |
-  | minor scale  |                                         |
-  | non-diatonic |                                         |
-  | pitch        |                                         |
-  | scale degree |                                         |
-  | solfege      |                                         |
-  | timbre       |                                         |
-  | whole step   | two half steps                          |
+
+|----------------|-------------------------------------------------------------|
+**cadence**      |                                                             |
+**chromatic**    |                                                             |
+**diatonic**     |                                                             |
+**enharmonic**   |                                                             |
+**half step**    | the smallest interval in Western music.                     |
+**interval**     | the distance between two pitches                            |
+**key**          |                                                             |
+**major scale**  |                                                             |
+**minor scale**  |                                                             |
+**non-diatonic** |                                                             |
+**pitch**        |                                                             |
+**scale degree** |                                                             |
+**solfege**      |                                                             |
+**timbre**       |                                                             |
+**whole step**   | two half steps                                              |
 

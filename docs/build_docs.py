@@ -23,7 +23,7 @@ formatting = {
 
 for doc in markdown_docs:
     with open(doc, 'r') as f:
-        page_content = check_output(['markdown', doc])
+        page_content = check_output(['multimarkdown', doc])
     formatting['content'] = page_content
 
     if doc == INDEX_FILE:

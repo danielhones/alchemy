@@ -1,10 +1,10 @@
-# Alchemy Ear Training - Using the Program
+# Alchemy Ear Training<br>Using the program
 
 # Getting Started
   When you first open the program, your screen will look like this: (((screenshot of default program)))
   
   At first, we'll only worry about the window on the right.  The program is ready to use right out of the box, so
-  let's move on to...
+  let's move on.
 
 # Your first exercise
   After opening the program, press Enter or click the "Start" button.  You'll hear a cadence followed by a random
