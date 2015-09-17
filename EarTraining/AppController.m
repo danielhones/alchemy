@@ -506,11 +506,15 @@
     [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:randomKey] forKey:@"RandomKey"];
     if (randomKey) {
         [_cadenceEveryTimeCheckbox setState:TRUE];
-        [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:cadenceEveryTime]
-                                                  forKey:@"CadenceEveryTime"];
+        [_cadenceEveryTimeCheckbox setEnabled:FALSE];
         // Only need to show start button if they changed TO playing random keys:
         [self showStartButtonAndDisableOthers];
+    } else {
+        [_cadenceEveryTimeCheckbox setEnabled:TRUE];
     }
+    cadenceEveryTime = [_cadenceEveryTimeCheckbox state];
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:cadenceEveryTime]
+                                              forKey:@"CadenceEveryTime"];
 }
 
 - (IBAction)cadenceEveryTimeClick:(id)sender {
