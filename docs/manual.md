@@ -1,13 +1,12 @@
-#+TITLE: Ear Training Manual - Using the Program
-#+AUTHOR: Daniel Hones
+# Alchemy Ear Training - Using the Program
 
-* Getting Started
+# Getting Started
   When you first open the program, your screen will look like this: (((screenshot of default program)))
   
   At first, we'll only worry about the window on the right.  The program is ready to use right out of the box, so
   let's move on to...
 
-* Your first exercise
+# Your first exercise
   After opening the program, press Enter or click the "Start" button.  You'll hear a cadence followed by a random
   single note.  By default, the program will only play diatonic notes but you can change that later in the
   preferences.
@@ -25,8 +24,8 @@
   In the lower left corner of the main window, the program keeps track of your score for the current session.  This
   is simply the number of correct answers divided by the total number of questions.  
 
-* Getting the most out of the program
-** Note selection
+# Getting the most out of the program
+## Note selection
    When you feel you've mastered the diatonic notes, it's time to add some chromatic ones.  Or, if you feel
    overwhelmed by all the diatonic notes, you can tell the program to only choose from certain ones.  To make
    changes to the notes the program selects randomly from, click the "More preferences" button or go to
@@ -43,7 +42,7 @@
    preferences.  If you quit and reopen the program, your changes will still be saved, so there's no need to adjust
    your preferences every time you use the program. 
 
-** Moving beyond one note
+## Moving beyond one note
    Once you've mastered all the chromatic notes, it's time to start hearing more than one note at once.  To do
    this, look in the options panel for this part:  (((screenshot with notes field and selectors circled)))
    
@@ -53,12 +52,12 @@
    choosing from diatonic notes again.  Then, when you are comfortable hearing multiple notes, add the chromatic
    notes one at a time.
 
-** Minor key
+## Minor key
    So far, we've only used the program to play questions in major keys.  It's important to also practice in minor
    keys.  To do this, simply select the "Minor" button in the options panel.  Remember that you have a separate set
    of preferences for minor keys, so you can adjust them without affecting your choices for the major keys.    
 
-** Turning off the cadence
+## Turning off the cadence
    One way to make these exercises more difficult is to not hear the cadence every time.  This forces you to retain
    the sound of the key in your mind over a longer period of time.  It becomes very difficult to do when you're
    practicing with multiple notes chosen from all diatonic and chromatic notes.
@@ -68,11 +67,13 @@
    need a reminder of the key, just click "Repeat question" at any point and you will hear the cadence again,
    followed by the notes.  
 
-* Quick reference
-** Options panel
+# Quick reference
+## Options panel
    Several screenshots here of the options panel.  When explaining each feature, use the screenshot with a big red
-   circle or something highlighting the particular feature. 
-** More preferences
+   circle or something highlighting the particular feature.
+   
+## More preferences
    Same idea here.  But probably just one screenshot is necessary
-** Keyboard shortcuts
+   
+## Keyboard shortcuts
    Table of keyboard shortcuts, that's all.
