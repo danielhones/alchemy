@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6513F0E41B8E9ADC0040B6CA /* Alchemy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6513F0E31B8E9ADC0040B6CA /* Alchemy.icns */; };
 		654150F818D21D0500F4F343 /* Sound Files in Resources */ = {isa = PBXBuildFile; fileRef = 654150F718D21D0500F4F343 /* Sound Files */; };
 		6544F14C18C30143008EC145 /* ETNoteButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6544F14B18C30143008EC145 /* ETNoteButtonsView.m */; };
 		6563F7C318CEA859001662D5 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6563F7C218CEA859001662D5 /* Preferences.xib */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6513F0E31B8E9ADC0040B6CA /* Alchemy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Alchemy.icns; sourceTree = "<group>"; };
 		654150F718D21D0500F4F343 /* Sound Files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Sound Files"; path = "EarTraining/Sound Files"; sourceTree = "<group>"; };
 		6544F14A18C30143008EC145 /* ETNoteButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNoteButtonsView.h; sourceTree = "<group>"; };
 		6544F14B18C30143008EC145 /* ETNoteButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNoteButtonsView.m; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		65A5B9A918BFE76F0089CCF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6513F0E31B8E9ADC0040B6CA /* Alchemy.icns */,
 				65A5B9AA18BFE76F0089CCF6 /* EarTraining-Info.plist */,
 				65A5B9AB18BFE76F0089CCF6 /* InfoPlist.strings */,
 				65A5B9AE18BFE76F0089CCF6 /* main.m */,
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6513F0E41B8E9ADC0040B6CA /* Alchemy.icns in Resources */,
 				65A5B9AD18BFE76F0089CCF6 /* InfoPlist.strings in Resources */,
 				654150F818D21D0500F4F343 /* Sound Files in Resources */,
 				65A5B9BB18BFE76F0089CCF6 /* Images.xcassets in Resources */,
