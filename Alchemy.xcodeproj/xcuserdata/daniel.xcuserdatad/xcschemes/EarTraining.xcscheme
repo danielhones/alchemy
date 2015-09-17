@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65A5B99E18BFE76F0089CCF6"
-               BuildableName = "EarTraining.app"
-               BlueprintName = "EarTraining"
-               ReferencedContainer = "container:EarTraining.xcodeproj">
+               BuildableName = "Alchemy.app"
+               BlueprintName = "Alchemy"
+               ReferencedContainer = "container:Alchemy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65A5B9BF18BFE76F0089CCF6"
-               BuildableName = "EarTrainingTests.xctest"
-               BlueprintName = "EarTrainingTests"
-               ReferencedContainer = "container:EarTraining.xcodeproj">
+               BuildableName = "AlchemyTests.xctest"
+               BlueprintName = "AlchemyTests"
+               ReferencedContainer = "container:Alchemy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65A5B99E18BFE76F0089CCF6"
-            BuildableName = "EarTraining.app"
-            BlueprintName = "EarTraining"
-            ReferencedContainer = "container:EarTraining.xcodeproj">
+            BuildableName = "Alchemy.app"
+            BlueprintName = "Alchemy"
+            ReferencedContainer = "container:Alchemy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -58,13 +58,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65A5B99E18BFE76F0089CCF6"
-            BuildableName = "EarTraining.app"
-            BlueprintName = "EarTraining"
-            ReferencedContainer = "container:EarTraining.xcodeproj">
+            BuildableName = "Alchemy.app"
+            BlueprintName = "Alchemy"
+            ReferencedContainer = "container:Alchemy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,13 +77,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65A5B99E18BFE76F0089CCF6"
-            BuildableName = "EarTraining.app"
-            BlueprintName = "EarTraining"
-            ReferencedContainer = "container:EarTraining.xcodeproj">
+            BuildableName = "Alchemy.app"
+            BlueprintName = "Alchemy"
+            ReferencedContainer = "container:Alchemy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

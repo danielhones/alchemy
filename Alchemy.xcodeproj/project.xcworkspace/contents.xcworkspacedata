@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EarTraining.xcodeproj">
+      location = "self:Alchemy.xcodeproj">
    </FileRef>
 </Workspace>
