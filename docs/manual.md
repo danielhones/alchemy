@@ -1,7 +1,8 @@
 # Alchemy Ear Training<br>Using the program
 
 # Getting Started
-  When you first open the program, your screen will look like this: (((screenshot of default program)))
+  When you first open the program, your screen will look like this:
+  <center>![Screenshot](img/initial_screen.png)</center>
   
   At first, we'll only worry about the window on the right.  The program is ready to use right out of the box, so
   let's move on.
@@ -26,10 +27,11 @@
 
 # Getting the most out of the program
 ## Note selection
-   When you feel you've mastered the diatonic notes, it's time to add some chromatic ones.  Or, if you feel
-   overwhelmed by all the diatonic notes, you can tell the program to only choose from certain ones.  To make
-   changes to the notes the program selects randomly from, click the "More preferences" button or go to
-   "EarTraining" > "Preferences" in the menu bar. (((screenshots go here))).
+   When you feel you've mastered the diatonic notes, it's time to add some chromatic ones.  Or, if you feel overwhelmed
+   by all the diatonic notes, you can tell the program to only choose from certain ones.  To make changes to the notes
+   the program selects randomly from, click the "More preferences" button or go to "EarTraining" > "Preferences" in the
+   menu bar.
+   <center>![preferences](img/preferences_screen.png)</center>
 
    This will open the preferences window, where you can select which notes the program will choose from when it
    plays random notes.  There are different sets of preferences for major and minor keys.  By default, only the
@@ -53,27 +55,34 @@
    notes one at a time.
 
 ## Minor key
-   So far, we've only used the program to play questions in major keys.  It's important to also practice in minor
-   keys.  To do this, simply select the "Minor" button in the options panel.  Remember that you have a separate set
-   of preferences for minor keys, so you can adjust them without affecting your choices for the major keys.    
+So far, we've only used the program to play questions in major keys.  It's important to also practice in minor
+keys.  To do this, simply select the "Minor" button in the options panel.  Remember that you have a separate set
+of preferences for minor keys, so you can adjust them without affecting your choices for the major keys.    
 
 ## Turning off the cadence
-   One way to make these exercises more difficult is to not hear the cadence every time.  This forces you to retain
-   the sound of the key in your mind over a longer period of time.  It becomes very difficult to do when you're
-   practicing with multiple notes chosen from all diatonic and chromatic notes.
+One way to make these exercises more difficult is to not hear the cadence every time.  This forces you to retain
+the sound of the key in your mind over a longer period of time.  It becomes very difficult to do when you're
+practicing with multiple notes chosen from all diatonic and chromatic notes.
 
-   To have the program stop playing the cadence before every question, click the "Play cadence" checkbox so that it
-   is no longer checked.  Now the program will only play the notes when you move on to each new question.  If you
-   need a reminder of the key, just click "Repeat question" at any point and you will hear the cadence again,
-   followed by the notes.  
+To have the program stop playing the cadence before every question, click the "Play cadence" checkbox so that it
+is no longer checked.  Now the program will only play the notes when you move on to each new question.  If you
+need a reminder of the key, just click "Repeat question" at any point and you will hear the cadence again,
+followed by the notes.  
 
 # Quick reference
 ## Options panel
-   Several screenshots here of the options panel.  When explaining each feature, use the screenshot with a big red
-   circle or something highlighting the particular feature.
+Several screenshots here of the options panel.  When explaining each feature, use the screenshot with a big red circle
+or something highlighting the particular feature.
    
 ## More preferences
-   Same idea here.  But probably just one screenshot is necessary
-   
+Same idea here.  But probably just one screenshot is necessary
+
 ## Keyboard shortcuts
-   Table of keyboard shortcuts, that's all.
+
+| Function      |   Key   |
+ ---------------|---------|
+Start	        |  Enter  |
+Check answer    |  Space  |
+Next question   |Backspace|
+Repeat notes    |   V	  |
+Repeat question |   C	  |

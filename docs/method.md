@@ -84,14 +84,14 @@ versions of the same note.  Here's an example of three notes that are each an oc
 </center>
    
 **Whole steps and half steps**<br>
-The smallest interval that exists in Western (I don't mean country and western) music is the half step.  The
-next smallest interval is a whole step.  Two half steps, as you would hope, do in fact make one whole step.  On
-certain instruments, it's possible to play pitches that are in between the 12 pitches we are used to hearing.
-In this case, there are intervals smaller than a half step.  For our purposes, we don't need to be concerned
-with hearing pitches that are in between the 12 we know because they usually end up just sounding out of tune.
-If you decide later on that you want to develop your ear for intonation or microtones (as the in between pitches
-are called), you can find other methods and tools to practice that.  In this program, all notes are in tune.
-    
+The smallest interval that exists in Western (I don't mean country and western) music is the half step.  The next
+smallest interval is a whole step.  Two half steps, as you would hope, make one whole step.  On certain instruments,
+it's possible to play pitches that are in between the 12 pitches we are used to hearing.  In this case, there are
+intervals smaller than a half step.  For our purposes, we don't need to be concerned with hearing pitches that are in
+between the 12 we know because they usually end up just sounding out of tune.  If you decide later on that you want to
+develop your ear for intonation or microtones (as the in between pitches are called), you can find other methods and
+tools to practice that.  In this program, all notes are in tune.
+
 **The piano keyboard**<br>
 <center>![Piano keyboard](img/piano_keyboard.png "2 octave keyboard")</center>
 
