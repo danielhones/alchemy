@@ -1,6 +1,7 @@
 div.nav-links {
     float: right;
-    padding-top: 1em;
+    
+    padding-top: 10px;
 }
 
 div.nav-links ul {
@@ -38,3 +39,15 @@ div.nav-links a:hover {
     margin: auto;
 }
 
+@media screen and (max-width: 800px) {
+    div.nav-links {
+	float: none;
+	margin: auto;
+    }
+    div.nav-links ul {
+	width: 100%;
+    }
+    div.nav-links li, div.nav-links a {
+	display: inline-block;
+    }
+}

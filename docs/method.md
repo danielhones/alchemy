@@ -1,6 +1,5 @@
-# Alchemy Ear Training:<br>Learning the method
+# Learning the method
 
-# Introduction
 ## What is ear training?
 Ear training is the process of learning to identify the sounds you hear in music.  As you might imagine,
 this is a broad definition and ear training itself covers many topics within it.  For example, you can practice
@@ -101,7 +100,6 @@ can see that huge mess of white and black keys is just a pattern that repeats: (
 keyboard C to B))).  In that pattern, there are 7 white keys and 5 black keys.  The white keys (if you start at
 the leftmost key) play what's called a major scale.  It sounds like this:
 
-<!-- Write custom controls for the audio elements see here: http://stackoverflow.com/questions/7638754/html-5-audio-tag-custom-controls -->
 <center>
 <audio controls id="c-major-scale-example">
   <source src="audio/c_major_scale.mp3" type="audio/mpeg">

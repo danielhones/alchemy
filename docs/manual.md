@@ -1,4 +1,4 @@
-# Alchemy Ear Training<br>Using the program
+# Using the program
 
 # Getting Started
   When you first open the program, your screen will look like this:
@@ -29,7 +29,7 @@
 ## Note selection
    When you feel you've mastered the diatonic notes, it's time to add some chromatic ones.  Or, if you feel overwhelmed
    by all the diatonic notes, you can tell the program to only choose from certain ones.  To make changes to the notes
-   the program selects randomly from, click the "More preferences" button or go to "EarTraining" > "Preferences" in the
+   the program selects randomly from, click the "More preferences" button or go to "Alchemy" > "Preferences" in the
    menu bar.
    <center>![preferences](img/preferences_screen.png)</center>
 
