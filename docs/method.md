@@ -18,9 +18,9 @@ try.
 Perfect pitch (or absolute pitch) is the ability to hear a note or notes and know instantly what pitches they are,
 without having to hear a reference pitch.  So far, all respectable research has concluded that a person has to be born
 with perfect pitch or develop it by age 4 and it cannot be developed over time with
-training<sup>[1](https://en.wikipedia.org/wiki/Absolute_pitch#Nature_vs._nurture)</sup>.  I don't have perfect pitch,
+training[^[Wikipedia](https://en.wikipedia.org/wiki/Absolute_pitch#Nature_vs._nurture)].  I don't have perfect pitch,
 and if you're reading this then you probably don't have it either.  That's nothing to be ashamed of.  Only 1 in 10,000
-people have the ability<sup>[2](http://www.sciencemag.org/content/268/5211/621.1)</sup>.  The
+people have the ability[^[Oliver Sacks](http://www.sciencemag.org/content/268/5211/621.1), Science Magazine].  The
 only thing the rest of us can do is cry and come up with reasons why we're glad we aren't cursed with such an
 affliction.
 
@@ -73,7 +73,7 @@ also called pitches.  Some pitches are higher than others.  Here's what those 12
 You can think of those pitches as being stacked on top of each other.  When we run out of those 12 pitches, we stack the
 pattern on top of itself again.  So when the pattern of 12 pitches repeats, we get another set of the same "kind" of
 note, but it sounds higher.  This is called an octave.  Notes that are an octave apart sound like higher or lower
-versions of the same note.  Here's an example of three notes that are each an octave apart, starting with the lower note
+versions of the same note.  Here's an example of three notes that are each an octave apart, starting with the lower note:
 
 <center>
 <audio controls id="octave-example">
@@ -82,7 +82,7 @@ versions of the same note.  Here's an example of three notes that are each an oc
 </audio>
 </center>
    
-**Whole steps and half steps**<br>
+<br>**Whole steps and half steps**<br>
 The smallest interval that exists in Western (I don't mean country and western) music is the half step.  The next
 smallest interval is a whole step.  Two half steps, as you would hope, make one whole step.  On certain instruments,
 it's possible to play pitches that are in between the 12 pitches we are used to hearing.  In this case, there are
@@ -96,9 +96,9 @@ tools to practice that.  In this program, all notes are in tune.
 
 A full-size piano has 88 keys and each key plays a different pitch.  While that sounds overwhelming at first, we
 know that there are actually only 12 different notes in Western music.  And if you look closer at the piano, you
-can see that huge mess of white and black keys is just a pattern that repeats: (((Picture of one octave of
-keyboard C to B))).  In that pattern, there are 7 white keys and 5 black keys.  The white keys (if you start at
-the leftmost key) play what's called a major scale.  It sounds like this:
+can see that huge mess of white and black keys is just a pattern that repeats.  In that pattern, there are 7 white keys
+and 5 black keys.  The white keys (if you start at the leftmost key) play what's called a major scale.  It sounds like
+this:
 
 <center>
 <audio controls id="c-major-scale-example">
@@ -106,12 +106,11 @@ the leftmost key) play what's called a major scale.  It sounds like this:
   <i>Your browser doesn't support this audio</i>
 </audio></center>
 
-A major scale is just a pattern of whole steps and half steps.  Every major scale is built from the same
-pattern, although they start on pitches.  Given 12 different pitches, there are 12 different major scales in
-Western music.  [fn:: Due to the fact that some notes have two different names, there actually 15 different major
-scales when writing out the scales on paper.  But 3 of those scales are redundant and since we're not concerned
-with naming actual pitches here, we will just take it as a fact that there are 12 different major scales, one
-starting on each of the 12 pitches.]
+A major scale is just a pattern of whole steps and half steps.  Every major scale is built from the same pattern,
+although they start on different pitches.  Given 12 different pitches, there are 12 different major scales in Western
+music.[^Due to the fact that some notes have two different names, there actually 15 different major scales when writing
+out the scales on paper.  But 3 of those scales are redundant and since we're not concerned with naming actual pitches
+here, we will just take it as a fact that there are 12 different major scales, one starting on each of the 12 pitches.]
     
 ## What is a key?
 A key is what sounds like the resolution point or "home base" of a piece of music.  You could also think of it as
@@ -170,7 +169,7 @@ Diatonic     | Do |    | Re | Me |    | Fa |    | Sol | Le |    | Te |    |
 ## The cadence
 A cadence is a sequence of chords that often occurs at the end of a phrase or section of a piece of music.  When it is
 used to conclude a piece of music, it usually has a sound of finality that clearly defines the key of the composition
-(for more about cadences, see this [Wikipedia page](http://en.wikipedia.org/wiki/Cadence_(music)).  Here's an example
+(for more about cadences, see this [Wikipedia page](http://en.wikipedia.org/wiki/Cadence_(music))).  Here's an example
 of a major cadence.  The first and last chords played are the tonic chord (or "home base") of the key:
 
 <center>
@@ -190,13 +189,13 @@ And this is a cadence in a minor key:
 </center>
 
 In this method of ear training, we'll play a sequence consisting of four chords to establish the sound of the key.
-Then, we'll play one or more random notes simultaneously and learn to identify the sound of each note in that particular
+Then we'll play one or more random notes simultaneously and learn to identify the sound of each note in that particular
 key.
    
 ## Identifying the notes
-At first, trying to identify a note by listening for its function in a key is a daunting task.  How on Earth can you
-hear a cadence, then a note, and then just pluck out its name from thin air?  As with everything else, we start simply
-and progress in small increments.  The example below plays a cadence, and then plays Do (or scale degree 1) in the key:
+At first, trying to identify a note by listening for its function in a key is a daunting task.
+How can you hear a cadence, then a note, and then just pluck out its name from thin air?  As with everything else, we
+start simply and progress in small increments.  The example below plays a cadence, and then plays Do in the key:
 
 <center>
 <audio controls id="cadence-and-do-example">
@@ -230,20 +229,19 @@ after the cadence, allowing you to progress in small easy increments or isolate 
 
 # Glossary
 
-|----------------|-------------------------------------------------------------|
-**cadence**      |                                                             |
+|----------------|-------------------------------------------------------------------|
+**cadence**      | A sequence of chords that usually ends a phrase or piece of music. |
 **chromatic**    |                                                             |
-**diatonic**     |                                                             |
-**enharmonic**   |                                                             |
-**half step**    | the smallest interval in Western music.                     |
-**interval**     | the distance between two pitches                            |
+**diatonic**     | Notes that belong to the current key.			|
+**enharmonic**   | Two different names for the same pitch.			|
+**half step**    | The smallest interval in Western music.	              |
+**interval**     | The distance between two pitches.                            |
 **key**          |                                                             |
-**major scale**  |                                                             |
-**minor scale**  |                                                             |
-**non-diatonic** |                                                             |
-**pitch**        |                                                             |
-**scale degree** |                                                             |
-**solfege**      |                                                             |
-**timbre**       |                                                             |
-**whole step**   | two half steps                                              |
+**major scale**  | A seven note scale that sounds happy.			|
+**minor scale**  | A seven note scale that sounds sad.				|
+**non-diatonic** | Notes that don't belong to the current key.			|
+**pitch**        | The 'highness' or 'lowness' of a sound. The thing you sing.	|
+**scale degree** | A number assigned to a note in a scale.				|
+**solfege**      | A syllable assigned to a note in the scale. Easier to sing than scale degrees. |
+**whole step**   | Two half steps.                                             |
 

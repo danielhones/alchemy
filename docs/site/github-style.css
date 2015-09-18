@@ -12,7 +12,7 @@
     min-width: 200px;
     max-width: 790px;
     margin: 0 auto;
-    padding: 10px 30px 30px 30px;
+    padding: 10px 30px 10px 30px;
 }
 
 .markdown-body p {
@@ -258,6 +258,7 @@
 .markdown-body h6:hover .anchor .octicon-link {
     display: inline-block;
 }
+
 
 .markdown-body h1 {
     padding-bottom: 0.3em;
