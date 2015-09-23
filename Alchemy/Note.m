@@ -9,7 +9,6 @@
 #import "Note.h"
 #import "KeysAndNotes.h"
 
-//#define kNoteFilesDirectory @"/Users/daniel/Developer/ETAudioFiles/Notes/"
 
 @interface Note ()
 @property (nonatomic, retain) NSMutableArray *notesArray;

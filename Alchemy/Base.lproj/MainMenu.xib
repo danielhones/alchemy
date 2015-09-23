@@ -109,7 +109,7 @@
                         <items>
                             <menuItem title="Alchemy Help" keyEquivalent="?" id="492">
                                 <connections>
-                                    <action selector="showHelp:" target="-1" id="493"/>
+                                    <action selector="viewHelp:" target="QX3-kY-x1J" id="X20-74-I4f"/>
                                 </connections>
                             </menuItem>
                         </items>
@@ -338,10 +338,10 @@ DQ
         <window title="Options" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="JDu-Na-Z55" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="393" y="537" width="162" height="325"/>
+            <rect key="contentRect" x="393" y="537" width="162" height="305"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <view key="contentView" id="5A3-o7-VsG">
-                <rect key="frame" x="0.0" y="0.0" width="162" height="325"/>
+                <rect key="frame" x="0.0" y="0.0" width="162" height="305"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="J6w-Kb-eBP">
@@ -422,14 +422,6 @@ DQ
                             <action selector="cadenceEveryTimeClick:" target="QX3-kY-x1J" id="jk4-J9-MqR"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="119-Dq-YUl">
-                        <rect key="frame" x="55" y="298" width="53" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Options" id="aGJ-nc-FUe">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                     <matrix toolTip="Change the way the notes are named." verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbd-rq-4cR">
                         <rect key="frame" x="12" y="70" width="111" height="38"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -500,7 +492,7 @@ DQ
                     </button>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="188" y="542.5"/>
+            <point key="canvasLocation" x="188" y="532.5"/>
         </window>
         <customObject id="QX3-kY-x1J" customClass="AppController">
             <connections>

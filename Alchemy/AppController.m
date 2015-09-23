@@ -539,6 +539,29 @@
     [preferences showWindow:self];
 }
 
+- (IBAction)viewHelp:(id)sender {
+    if ([self isNetworkConnected]) {
+        NSURL *helpFileUrl = [NSURL URLWithString:@"http://www.alchemyeartraining.com/help.html"];
+        [[NSWorkspace sharedWorkspace] openURL:helpFileUrl];
+    } else {
+        NSString *helpFilesDirectory = [[NSString alloc] initWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], @"docs/"];
+        NSString *helpFilePath = [[NSString alloc] initWithFormat:@"%@%@", helpFilesDirectory, @"help.html"];
+        NSLog(@"helpFilePath: %@", helpFilePath);
+        [[NSWorkspace sharedWorkspace] openFile:helpFilePath];
+    }
+    
+}
+
+- (BOOL)isNetworkConnected {
+    /* 
+     This code came from here:
+     http://stackoverflow.com/a/7205441
+     */
+    Reachability *reachability = [Reachability reachabilityForInternetConnection];
+    NetworkStatus networkStatus = [reachability currentReachabilityStatus];
+    return networkStatus;
+}
+
 - (void)setKeyMenu:(BOOL)choice {
     long currentChoice = [_keyPopUpMenu indexOfSelectedItem];
     NSArray *majorKeys = [NSArray arrayWithObjects:

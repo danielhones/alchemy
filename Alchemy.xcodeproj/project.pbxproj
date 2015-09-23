@@ -28,6 +28,9 @@
 		65CCF56A18CCD99700EC74D8 /* Guess.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCF56918CCD99700EC74D8 /* Guess.m */; };
 		65CCF56D18CCDFF700EC74D8 /* ETTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCF56C18CCDFF700EC74D8 /* ETTextField.m */; };
 		65DF270B18C04624002D98B1 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF270A18C04624002D98B1 /* AppController.m */; };
+		65F83DCE1BB3204D0029E648 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F83DCD1BB3204D0029E648 /* SystemConfiguration.framework */; };
+		65F83DD11BB3211E0029E648 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F83DD01BB3211E0029E648 /* Reachability.m */; };
+		65F83EC21BB329460029E648 /* docs in Resources */ = {isa = PBXBuildFile; fileRef = 65F83EC11BB329460029E648 /* docs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,10 @@
 		65CCF56C18CCDFF700EC74D8 /* ETTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTextField.m; sourceTree = "<group>"; };
 		65DF270918C04624002D98B1 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		65DF270A18C04624002D98B1 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		65F83DCD1BB3204D0029E648 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65F83DCF1BB3211E0029E648 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		65F83DD01BB3211E0029E648 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		65F83EC11BB329460029E648 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = docs; path = Alchemy/docs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F83DCE1BB3204D0029E648 /* SystemConfiguration.framework in Frameworks */,
 				65A5B9A318BFE76F0089CCF6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +112,7 @@
 		65A5B99618BFE76F0089CCF6 = {
 			isa = PBXGroup;
 			children = (
+				65F83EC11BB329460029E648 /* docs */,
 				654150F718D21D0500F4F343 /* Sound Files */,
 				65A5B9A818BFE76F0089CCF6 /* Alchemy */,
 				65A5B9C618BFE76F0089CCF6 /* AlchemyTests */,
@@ -124,6 +133,7 @@
 		65A5B9A118BFE76F0089CCF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65F83DCD1BB3204D0029E648 /* SystemConfiguration.framework */,
 				65A5B9A218BFE76F0089CCF6 /* Cocoa.framework */,
 				65A5B9C118BFE76F0089CCF6 /* XCTest.framework */,
 				65A5B9A418BFE76F0089CCF6 /* Other Frameworks */,
@@ -144,6 +154,8 @@
 		65A5B9A818BFE76F0089CCF6 /* Alchemy */ = {
 			isa = PBXGroup;
 			children = (
+				65F83DCF1BB3211E0029E648 /* Reachability.h */,
+				65F83DD01BB3211E0029E648 /* Reachability.m */,
 				65DF270918C04624002D98B1 /* AppController.h */,
 				65DF270A18C04624002D98B1 /* AppController.m */,
 				65CCF56818CCD99700EC74D8 /* Guess.h */,
@@ -281,6 +293,7 @@
 				654150F818D21D0500F4F343 /* Sound Files in Resources */,
 				65A5B9BB18BFE76F0089CCF6 /* Images.xcassets in Resources */,
 				65A5B9B318BFE76F0089CCF6 /* Credits.rtf in Resources */,
+				65F83EC21BB329460029E648 /* docs in Resources */,
 				65A5B9B918BFE76F0089CCF6 /* MainMenu.xib in Resources */,
 				6563F7C318CEA859001662D5 /* Preferences.xib in Resources */,
 			);
@@ -305,6 +318,7 @@
 				65A5B9DD18BFE7920089CCF6 /* Note.m in Sources */,
 				65CCF56A18CCD99700EC74D8 /* Guess.m in Sources */,
 				6563F80E18CEB49C001662D5 /* PreferencesController.m in Sources */,
+				65F83DD11BB3211E0029E648 /* Reachability.m in Sources */,
 				65CCF56D18CCDFF700EC74D8 /* ETTextField.m in Sources */,
 				6563F81118CEBA77001662D5 /* ETNoteChoiceView.m in Sources */,
 				65A5B9DF18BFE7920089CCF6 /* Cadence.m in Sources */,

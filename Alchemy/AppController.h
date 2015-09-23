@@ -9,6 +9,9 @@
 #import "Guess.h"
 #import "KeysAndNotes.h"
 #import "PreferencesController.h"
+#import "Reachability.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+
 
 @interface AppController : NSObject <NSApplicationDelegate> {
     NSArray *solfegeArray;
@@ -95,6 +98,7 @@
  */
 - (IBAction)viewOptionsPanel:(id)sender;
 - (IBAction)openPreferences:(id)sender;
+- (IBAction)viewHelp:(id)sender;
 
 
 /*
@@ -111,6 +115,7 @@
 - (void)showRightAnswer;
 - (void)showStartButtonAndDisableOthers;
 - (void)stopNotes;
+- (BOOL)isNetworkConnected;
 
 // Key definition methods:
 - (int)noteNumberForCode:(int)code andKey:(int)key;
