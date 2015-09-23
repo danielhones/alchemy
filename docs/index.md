@@ -12,7 +12,7 @@ It will be available for download very soon from this site and the Mac App Store
 it now from the [source code](http://www.github.com/danielhones/alchemy).
 
 # Documentation
-The documentation is a work in progress, so some parts are disorganized and incomplete.
+The documentation is a work in progress, so some parts may be disorganized or incomplete.
 
 * [Learning the method](method.html)
 * [Using the program](manual.html)
