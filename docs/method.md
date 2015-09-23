@@ -18,9 +18,9 @@ we will cover everything you need to know in the upcoming sections.
 Perfect pitch (or absolute pitch) is the ability to hear a note or notes and know instantly what pitches they are,
 without having to hear a reference pitch.  So far, all respectable research has concluded that a person has to be born
 with perfect pitch or develop it by age 4 and it cannot be developed over time with
-training[^[Wikipedia](https://en.wikipedia.org/wiki/Absolute_pitch#Nature_vs._nurture)].  I don't have perfect pitch,
+training.[^[Wikipedia](https://en.wikipedia.org/wiki/Absolute_pitch#Nature_vs._nurture)]  I don't have perfect pitch,
 and if you're reading this then you probably don't have it either.  That's nothing to be ashamed of.  Only 1 in 10,000
-people have the ability[^[Oliver Sacks](http://www.sciencemag.org/content/268/5211/621.1), Science Magazine].  The
+people have the ability.[^[Oliver Sacks](http://www.sciencemag.org/content/268/5211/621.1), Science Magazine]  The
 only thing the rest of us can do is cry and come up with reasons why we're glad we aren't cursed with such an
 affliction.
 

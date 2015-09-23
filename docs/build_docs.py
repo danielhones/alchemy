@@ -32,7 +32,7 @@ for doc in markdown_docs:
         entire_page = PAGE_TEMPLATE % formatting
 
     output_file = OUTPUT_DIR + doc.rstrip('md') + ('html')
-    # TODO: Also have this write to the right location within the app package, to use as a local copy
+
     with open(output_file, 'wb') as f:
         f.write(entire_page)
 
@@ -42,3 +42,15 @@ if len(sys.argv) > 1 and sys.argv[1] == 'push':
     # audio and img directories
     print 'Pushing files to server...'
     call(r'scp site/* root@danielhones.com:/data/www/alchemy', shell=True)
+
+if len(sys.argv) > 1 and sys.argv[1] == 'updateapp':
+    # Copy docs files into Alchemy XCode project folder:
+    destination = "../Alchemy/docs/"
+
+    call(r'cp site/*.css ' + destination, shell=True)
+    call(r'cp -r site/img ' + destination, shell=True)
+    call(r'cp -r site/audio ' + destination, shell=True)
+
+    html_files = ['help.html', 'manual.html', 'method.html', 'support.html']
+    for f in html_files:
+        call(r'cp site/' + f + ' ' + destination, shell=True)

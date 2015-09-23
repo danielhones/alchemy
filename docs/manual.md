@@ -45,7 +45,7 @@ simply the number of correct answers divided by the total number of questions.
 ## Moving beyond one note
 Once you've mastered all the chromatic notes, it's time to start hearing more than one note at once.  To do this, look
 in the options panel for this part:
-<center>![num-notes](img/options_num_notes.png)</center>
+<center>![num-notes](img/num_notes_selection.png)</center>
    
 The little up and down arrow keys let you select how many notes you want to practice with.  With Alchemy, you can
 practice with up to 8 notes simultaneously.  When moving from one note to two and beyond, it's often helpful to change
