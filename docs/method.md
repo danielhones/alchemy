@@ -73,7 +73,7 @@ called pitches.  Here's what those 12 pitches sound like ascending:
 You can think of those pitches as being stacked on top of each other.  When we run out of those 12 pitches, we stack the
 pattern on top of itself again.  When the pattern repeats, we get the same notes again, but a higher "version" of them.
 The distance between one version of a note and the next higher or lower version of it is called an octave.  Here's an
-example of three notes that are each an octave apart, starting with the lowest note:
+example of four notes that are each an octave apart, starting with the lowest note:
 
 <center>
 <audio controls id="octave-example">
@@ -281,12 +281,12 @@ after the cadence, allowing you to progress in small easy increments or isolate 
 
 |----------------|-------------------------------------------------------------------|
 **cadence**      | A sequence of chords that usually ends a phrase or piece of music. |
-**chromatic**    |                                                             |
+**chromatic**    | All the notes, including diatonic and non-diatonic. |
 **diatonic**     | Notes that belong to the current key.			|
 **enharmonic**   | Two different names for the same pitch.			|
 **half step**    | The smallest interval in Western music.	              |
 **interval**     | The distance between two pitches.                            |
-**key**          |                                                             |
+**key**          | The "home base" or resolution point of a piece of music |
 **major scale**  | A seven note scale that sounds happy.			|
 **minor scale**  | A seven note scale that sounds sad.				|
 **non-diatonic** | Notes that don't belong to the current key.			|
