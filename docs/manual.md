@@ -1,11 +1,10 @@
 # Using the program
 
-# Getting Started
-  When you first open the program, your screen will look like this:
-  <center>![Screenshot](img/initial_screen.png)</center>
-  
-  At first, we'll only worry about the window on the right.  The program is ready to use right out of the box, so
-  let's move on to...
+When you first open the program, your screen will look like this:
+<center>![Screenshot](img/initial_screen.png)</center>
+ 
+At first, we'll only worry about the window on the right.  The program is ready to use right out of the box, so
+let's move on to...
 
 # Your first exercise
 After opening the program, press Enter or click the "Start" button.  You'll hear a cadence followed by a random single
