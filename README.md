@@ -5,8 +5,9 @@
 An ear training app for OS X that implements the Charlie Banacos-style ear training exercise for single and multiple
 simultaneous notes.
 
-To build it, download the zip file or clone it with git: `git clone git@github.com:danielhones/alchemy.git`.  Then open
-the XCode project, select Run, and cross your fingers.
+To build it, download the zip file or clone it with git:
+```git clone git@github.com:danielhones/alchemy.git```
+Then open the XCode project, select Run, and cross your fingers.
 
 The [documentation](http://www.alchemyeartraining.com/help.html) includes a brief
 [primer](http://www.alchemyeartraining.com/method.html) on basic music theory and how the exercise works, as well as a
