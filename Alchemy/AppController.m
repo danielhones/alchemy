@@ -192,6 +192,7 @@
     [_repeatQuestionButton setEnabled:NO];
     [_repeatNotesButton setEnabled:NO];
     [_skipQuestionButton setEnabled:NO];
+    [_showAnswerButton setEnabled:NO];
     [_checkAnswerButton setEnabled:NO];
     
     // Initialize the score and score labels:
@@ -225,6 +226,7 @@
     [_repeatQuestionButton setEnabled:YES];
     [_repeatNotesButton setEnabled:YES];
     [_skipQuestionButton setEnabled:YES];
+    [_showAnswerButton setEnabled:YES];
     [_checkAnswerButton setEnabled:YES];
     playCadenceThisTime = TRUE;
     
@@ -240,6 +242,7 @@
     [_repeatQuestionButton setEnabled:NO];
     [_repeatNotesButton setEnabled:NO];
     [_skipQuestionButton setEnabled:NO];
+    [_showAnswerButton setEnabled:NO];
     [_checkAnswerButton setEnabled:NO];
     [_startButton setHidden:NO];
     [_startButton setEnabled:YES];
@@ -390,6 +393,14 @@
     [self stopNotes];
     [self showRightAnswer];
     [self playNewRandomNotes];
+}
+
+- (IBAction)showAnswerClick:(id)sender {
+    if ([currentCadence isPlaying]) {
+        return;
+    }
+    [self stopNotes];
+    [self showRightAnswer];
 }
 
 - (void)showRightAnswer {

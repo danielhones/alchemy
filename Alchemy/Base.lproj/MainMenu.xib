@@ -128,6 +128,17 @@
                 <rect key="frame" x="0.0" y="0.0" width="884" height="429"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <button toolTip="Show the correct answer, but stay on the question." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sbc-k2-maR">
+                        <rect key="frame" x="15" y="220" width="139" height="32"/>
+                        <buttonCell key="cell" type="push" title="Show answer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="AdW-D2-P9z">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent">s</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showAnswerClick:" target="QX3-kY-x1J" id="aFk-20-mI6"/>
+                        </connections>
+                    </button>
                     <button toolTip="Checks your answer and tells you if you're right" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gcf-Rs-ndx">
                         <rect key="frame" x="15" y="253" width="139" height="32"/>
                         <buttonCell key="cell" type="push" title="Check answer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lDJ-1T-Pv8">
@@ -271,7 +282,7 @@ CA
                         <rect key="frame" x="792" y="19" width="72" height="357"/>
                     </customView>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ic-7E-IMM">
-                        <rect key="frame" x="49" y="220" width="70" height="32"/>
+                        <rect key="frame" x="49" y="187" width="70" height="32"/>
                         <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Cdp-qd-xI6">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -509,6 +520,7 @@ DQ
                 <outlet property="keyPopUpMenu" destination="jg0-4e-nUB" id="Sh8-H8-rQZ"/>
                 <outlet property="mainWindow" destination="371" id="RVh-Wz-eIv"/>
                 <outlet property="nextQuestionButton" destination="YiX-jl-gwV" id="zVr-Ak-exn"/>
+                <outlet property="showAnswerButton" destination="Sbc-k2-maR" id="9da-Cs-9nw"/>
                 <outlet property="noteNameChoice" destination="sbd-rq-4cR" id="Ud3-bO-6ej"/>
                 <outlet property="noteTextField1" destination="oBz-Ma-bKo" id="06G-Wz-LQm"/>
                 <outlet property="numberOfNotesStepper" destination="qun-JU-RdU" id="z9P-xM-mM3"/>
