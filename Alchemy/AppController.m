@@ -401,6 +401,7 @@
     }
     [self stopNotes];
     [self showRightAnswer];
+    numberOfTimesChecked++;
 }
 
 - (void)showRightAnswer {

@@ -129,7 +129,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button toolTip="Show the correct answer, but stay on the question." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sbc-k2-maR">
-                        <rect key="frame" x="15" y="220" width="139" height="32"/>
+                        <rect key="frame" x="15" y="253" width="139" height="32"/>
                         <buttonCell key="cell" type="push" title="Show answer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="AdW-D2-P9z">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -140,7 +140,7 @@
                         </connections>
                     </button>
                     <button toolTip="Checks your answer and tells you if you're right" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gcf-Rs-ndx">
-                        <rect key="frame" x="15" y="253" width="139" height="32"/>
+                        <rect key="frame" x="15" y="220" width="139" height="32"/>
                         <buttonCell key="cell" type="push" title="Check answer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lDJ-1T-Pv8">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
