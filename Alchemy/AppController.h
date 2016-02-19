@@ -36,6 +36,7 @@
 @property (weak) IBOutlet NSButton *repeatQuestionButton;
 @property (weak) IBOutlet NSButton *repeatNotesButton;
 @property (weak) IBOutlet NSButton *skipQuestionButton;
+@property (weak) IBOutlet NSButton *showAnswerButton;
 @property (weak) IBOutlet NSButton *checkAnswerButton;
 @property (weak) IBOutlet NSStepper *numberOfNotesStepper;
 @property (weak) IBOutlet ETNoteButtonsView *buttonsView1;
@@ -68,6 +69,7 @@
 - (IBAction)repeatNotesClick:(id)sender;
 - (IBAction)checkAnswerClick:(id)sender;
 - (IBAction)skipQuestionClick:(id)sender;
+- (IBAction)showAnswerClick:(id)sender;
 
 /*
  Options panel IBOoutlet properties
