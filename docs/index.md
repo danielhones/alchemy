@@ -6,15 +6,12 @@
 
 # What is it?
 Alchemy is a program for practicing functional ear training on Mac OS X.  It's absolutely free and without ads.  It's
-open source.  It might even be useful.
+[open source](//github.com/danielhones/alchemy).  It might even be useful.
 
-It will be available for download very soon from this site and the Mac App Store.  If you're adventurous, you can build
-it now from the [source code](http://www.github.com/danielhones/alchemy).
+To install, click the icon below and unzip the file that downloads.  Then drag the app into your Applications folder.
 
-# Download
-<div id="download-link-wrapper"><a href="alchemy.zip" download="filename">Icon goes here</a></div>
-
-To install, click the icon above and unzip the file that downloads.  Then drag the app into your Applications folder.
+<div id="download-link-wrapper"><a href="alchemy.zip" download="Alchemy Ear Training.zip"><img src="img/download_icon.png" width="128px"
+height="128px"></a></div>
 
 # Documentation
 * [Learning the method](method.html)
