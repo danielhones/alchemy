@@ -2,6 +2,16 @@
     margin-top: 30px;
 }
 
+#download-link-wrapper a {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#download-link-wrapper {
+    padding-top: 8px;
+}
+
 div.content-wrapper ul {
     list-style-type: none;
     padding: 2px;
@@ -25,10 +35,12 @@ div.content-wrapper li a:hover {
     text-decoration: none;
     background: lightgray;
 }
+
 #whatisit {
-    padding-top: 30px;
+    padding-top: 40px;
     margin-top: 10px;
 }
+
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%;
